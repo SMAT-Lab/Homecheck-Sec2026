@@ -52,7 +52,9 @@ Homecheck-Sec2026
 
 正常来讲需要大家安装DevEco Studio(鸿蒙应用开发用的IDE)，并从中拿到SDK文件，但是为了方便我直接把SDK文件给大家，但是SDK的文件太大了我不放仓库里了，我给大家传云盘了，有需要的同学可以从这里拿：
 
-https://bhpan.buaa.edu.cn/link/AAE5BECB39B8534C65A587AD9211A965F2
+https://bhpan.buaa.edu.cn/link/AA402B7ACAABE44B23B936379C7401214E
+文件夹名：鸿蒙SDK
+有效期限：永久有效
 
 对于已经安装了DevEco Studio的同学，可以直接在DevEco Studio安装目录下获取，例如若你的DevEco Studio安装在D:/DevEco Studio，则projectConfig.json中按如下配置：
 
