@@ -1101,7 +1101,6 @@ export class NoUnusedVarsCheck implements BaseChecker {
           });
           //删除前面的非赋值参数
           this.removeInitArgsVars(nousedSet, isInit, method);
-          console.assert('baga');
         } else {
           maxProcess = Math.max(maxProcess, paramIndex ?? 0);
         }
