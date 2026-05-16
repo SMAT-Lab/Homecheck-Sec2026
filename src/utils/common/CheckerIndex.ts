@@ -245,6 +245,11 @@ import { StreamUsageApiCheck } from '../../checker/performance/StreamUsageApiChe
 import { AvoidMemoryLeakInAnimator } from '../../checker/performance/AvoidMemoryLeakInAnimator';
 import { AvoidMemoryLeakInDisplaysync } from '../../checker/performance/AvoidMemoryLeakInDisplaysync';
 import { CommandExecutionCheck } from '../../checker/SoftwareSecurity26/Checker19241042/CommandExecutionCheck';
+import { UnsafeEvalCheck } from '../../checker/SoftwareSecurity26/Checker23182107/UnsafeEvalCheck';
+import { FunctionConstructorCheck } from '../../checker/SoftwareSecurity26/Checker23182107/FunctionConstructorCheck';
+import { CleartextHttpUrlCheck } from '../../checker/SoftwareSecurity26/Checker23182107/CleartextHttpUrlCheck';
+import { HardcodedSecretCheck } from '../../checker/SoftwareSecurity26/Checker23182107/HardcodedSecretCheck';
+import { UnsafeInnerHtmlCheck } from '../../checker/SoftwareSecurity26/Checker23182107/UnsafeInnerHtmlCheck';
 
 
 const logger = Logger.getLogger(LOG_MODULE_TYPE.HOMECHECK, 'CheckerIndex');
@@ -460,7 +465,12 @@ export const fileRules = {
     "@stability/call-addInput-before-addOutput-check": CallAddInputBeforeAddOutputCheck,
     "@stability/camera-input-open-check": CameraInputOpenCheck,
     //software-security2026 start
-    "@software-sec/checker19241042/command-execution-check":CommandExecutionCheck
+    "@software-sec/checker19241042/command-execution-check": CommandExecutionCheck,
+    "@software-sec/checker23182107/unsafe-eval-check": UnsafeEvalCheck,
+    "@software-sec/checker23182107/function-constructor-check": FunctionConstructorCheck,
+    "@software-sec/checker23182107/cleartext-http-url-check": CleartextHttpUrlCheck,
+    "@software-sec/checker23182107/hardcoded-secret-check": HardcodedSecretCheck,
+    "@software-sec/checker23182107/unsafe-inner-html-check": UnsafeInnerHtmlCheck
     //software-security2026 end
 };
 
