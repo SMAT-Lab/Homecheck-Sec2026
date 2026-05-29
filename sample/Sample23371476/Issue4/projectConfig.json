@@ -1,6 +1,6 @@
 {
-  "projectName": "TestProject",
-  "projectPath": "D:/arkProject",
+  "projectName": "Issue4-SensitiveLog",
+  "projectPath": "./sample/Sample23371476/Issue4",
   "logPath": "./HomeCheck.log",
   "ohosSdkPath": "./resources/sdk/openharmony/ets",
   "hmsSdkPath": "./resources/sdk/hms/ets",

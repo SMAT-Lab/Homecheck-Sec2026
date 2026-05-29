@@ -254,6 +254,11 @@
     "@stability/image-sync-blur-check": 3
   },
   "plugin:@software-sec/all": {
-    "@software-sec/checker19241042/command-execution-check": 1
+    "@software-sec/checker19241042/command-execution-check": 1,
+    "@software-sec/checker23371476/sql-injection-check": 1,
+    "@software-sec/checker23371476/hardcoded-credential-check": 1,
+    "@software-sec/checker23371476/weak-random-check": 1,
+    "@software-sec/checker23371476/sensitive-log-check": 1,
+    "@software-sec/checker23371476/unsafe-eval-check": 1
   }
 }
