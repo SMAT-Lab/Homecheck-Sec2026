@@ -1,0 +1,60 @@
+{
+  "symbols": {
+    "connection": {
+      "source": "@ohos.net.connection.d.ts",
+      "bindings": "default"
+    },
+    "ethernet": {
+      "source": "@ohos.net.ethernet.d.ts",
+      "bindings": "default"
+    },
+    "http": {
+      "source": "@ohos.net.http.d.ts",
+      "bindings": "default"
+    },
+    "mdns": {
+      "source": "@ohos.net.mdns.d.ts",
+      "bindings": "default"
+    },
+    "policy": {
+      "source": "@ohos.net.policy.d.ts",
+      "bindings": "default"
+    },
+    "sharing": {
+      "source": "@ohos.net.sharing.d.ts",
+      "bindings": "default"
+    },
+    "socket": {
+      "source": "@ohos.net.socket.d.ts",
+      "bindings": "default"
+    },
+    "statistics": {
+      "source": "@ohos.net.statistics.d.ts",
+      "bindings": "default"
+    },
+    "vpn": {
+      "source": "@ohos.net.vpn.d.ts",
+      "bindings": "default"
+    },
+    "webSocket": {
+      "source": "@ohos.net.webSocket.d.ts",
+      "bindings": "default"
+    },
+    "vpnExtension": {
+      "source": "@ohos.net.vpnExtension.d.ts",
+      "bindings": "default"
+    },
+    "networkSecurity": {
+      "source": "@ohos.net.networkSecurity.d.ts",
+      "bindings": "default"
+    },
+    "VpnExtensionAbility": {
+      "source": "@ohos.app.ability.VpnExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "VpnExtensionContext": {
+      "source": "@ohos.app.ability.VpnExtensionAbility.d.ts",
+      "bindings": "VpnExtensionContext"
+    }
+  }
+}

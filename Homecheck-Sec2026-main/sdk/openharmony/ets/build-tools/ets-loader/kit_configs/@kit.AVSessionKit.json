@@ -1,0 +1,24 @@
+{
+  "symbols": {
+    "AVCastPicker": {
+      "source": "@ohos.multimedia.avCastPicker.d.ets",
+      "bindings": "default"
+    },
+    "AVCastPickerState": {
+      "source": "@ohos.multimedia.avCastPickerParam.d.ts",
+      "bindings": "AVCastPickerState"
+    },
+    "AVCastPickerStyle": {
+      "source": "@ohos.multimedia.avCastPickerParam.d.ts",
+      "bindings": "AVCastPickerStyle"
+    },
+    "AVCastPickerColorMode": {
+      "source": "@ohos.multimedia.avCastPickerParam.d.ts",
+      "bindings": "AVCastPickerColorMode"
+    },
+    "avSession": {
+      "source": "@ohos.multimedia.avsession.d.ts",
+      "bindings": "default"
+    }
+  }
+}

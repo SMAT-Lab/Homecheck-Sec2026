@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "EntityType": {
+      "source": "@hms.ai.nlp.textProcessing",
+      "bindings": "EntityType"
+    },
+    "textProcessing": {
+      "source": "@hms.ai.nlp.textProcessing",
+      "bindings": "default"
+    }
+  }
+}

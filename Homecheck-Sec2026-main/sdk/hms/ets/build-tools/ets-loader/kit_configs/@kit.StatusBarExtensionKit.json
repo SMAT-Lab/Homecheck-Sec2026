@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "statusBarManager": {
+      "source": "@hms.pcService.statusBarManager",
+      "bindings": "default"
+    },
+    "StatusBarViewExtensionAbility": {
+      "source": "@hms.pcService.StatusBarViewExtensionAbility",
+      "bindings": "default"
+    }
+  }
+}

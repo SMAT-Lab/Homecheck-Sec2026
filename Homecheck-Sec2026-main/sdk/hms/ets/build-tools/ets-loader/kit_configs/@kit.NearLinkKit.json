@@ -1,0 +1,28 @@
+{
+  "symbols": {
+    "advertising": {
+      "source": "@hms.nearlink.advertising",
+      "bindings": "default"
+    },
+    "scan": {
+      "source": "@hms.nearlink.scan",
+      "bindings": "default"
+    },
+    "constant": {
+      "source": "@hms.nearlink.constant",
+      "bindings": "default"
+    },
+    "manager": {
+      "source": "@hms.nearlink.manager",
+      "bindings": "default"
+    },
+    "remoteDevice": {
+      "source": "@hms.nearlink.remoteDevice",
+      "bindings": "default"
+    },
+    "ssap": {
+      "source": "@hms.nearlink.ssap",
+      "bindings": "default"
+    }
+  }
+}

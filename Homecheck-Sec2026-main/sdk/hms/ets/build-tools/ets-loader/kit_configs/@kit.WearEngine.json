@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "wearEngine": {
+      "source": "@hms.health.wearEngine",
+      "bindings": "default"
+    }
+  }
+}

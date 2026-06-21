@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "rcp": {
+      "source": "@hms.collaboration.rcp",
+      "bindings": "default"
+    },
+    "urpc": {
+      "source": "@hms.collaboration.urpc",
+      "bindings": "default"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "symbols": {
+    "i18n": {
+      "source": "@ohos.i18n.d.ts",
+      "bindings": "default"
+    },
+    "intl": {
+      "source": "@ohos.intl.d.ts",
+      "bindings": "default"
+    },
+    "resourceManager": {
+      "source": "@ohos.resourceManager.d.ts",
+      "bindings": "default"
+    },
+    "sendableResourceManager": {
+      "source": "@ohos.sendableResourceManager.d.ets",
+      "bindings": "default"
+    }
+  }
+}

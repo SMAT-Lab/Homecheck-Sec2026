@@ -1,0 +1,208 @@
+{
+  "symbols": {
+    "appAccount": {
+      "source": "@ohos.account.appAccount.d.ts",
+      "bindings": "default"
+    },
+    "customConfig": {
+      "source": "@ohos.customization.customConfig.d.ts",
+      "bindings": "default"
+    },
+    "distributedAccount": {
+      "source": "@ohos.account.distributedAccount.d.ts",
+      "bindings": "default"
+    },
+    "osAccount": {
+      "source": "@ohos.account.osAccount.d.ts",
+      "bindings": "default"
+    },
+    "AsyncCallback": {
+      "source": "@ohos.base.d.ts",
+      "bindings": "AsyncCallback"
+    },
+    "BusinessError": {
+      "source": "@ohos.base.d.ts",
+      "bindings": "BusinessError"
+    },
+    "Callback": {
+      "source": "@ohos.base.d.ts",
+      "bindings": "Callback"
+    },
+    "ErrorCallback": {
+      "source": "@ohos.base.d.ts",
+      "bindings": "ErrorCallback"
+    },
+    "batteryInfo": {
+      "source": "@ohos.batteryInfo.d.ts",
+      "bindings": "default"
+    },
+    "deviceAttest": {
+      "source": "@ohos.deviceAttest.d.ts",
+      "bindings": "default"
+    },
+    "deviceInfo": {
+      "source": "@ohos.deviceInfo.d.ts",
+      "bindings": "default"
+    },
+    "pasteboard": {
+      "source": "@ohos.pasteboard.d.ts",
+      "bindings": "default"
+    },
+    "power": {
+      "source": "@ohos.power.d.ts",
+      "bindings": "default"
+    },
+    "print": {
+      "source": "@ohos.print.d.ts",
+      "bindings": "default"
+    },
+    "request": {
+      "source": "@ohos.request.d.ts",
+      "bindings": "default"
+    },
+    "runningLock": {
+      "source": "@ohos.runningLock.d.ts",
+      "bindings": "default"
+    },
+    "screenLock": {
+      "source": "@ohos.screenLock.d.ts",
+      "bindings": "default"
+    },
+    "settings": {
+      "source": "@ohos.settings.d.ts",
+      "bindings": "default"
+    },
+    "systemDateTime": {
+      "source": "@ohos.systemDateTime.d.ts",
+      "bindings": "default"
+    },
+    "systemTime": {
+      "source": "@ohos.systemTime.d.ts",
+      "bindings": "default"
+    },
+    "thermal": {
+      "source": "@ohos.thermal.d.ts",
+      "bindings": "default"
+    },
+    "usb": {
+      "source": "@ohos.usb.d.ts",
+      "bindings": "default"
+    },
+    "usbManager": {
+      "source": "@ohos.usbManager.d.ts",
+      "bindings": "default"
+    },
+    "wallpaper": {
+      "source": "@ohos.wallpaper.d.ts",
+      "bindings": "default"
+    },
+    "zlib": {
+      "source": "@ohos.zlib.d.ts",
+      "bindings": "default"
+    },
+    "commonEventManager": {
+      "source": "@ohos.commonEventManager.d.ts",
+      "bindings": "default"
+    },
+    "emitter": {
+      "source": "@ohos.events.emitter.d.ts",
+      "bindings": "default"
+    },
+    "Battery": {
+      "source": "@system.battery.d.ts",
+      "bindings": "default"
+    },
+    "BatteryResponse": {
+      "source": "@system.battery.d.ts",
+      "bindings": "BatteryResponse"
+    },
+    "GetStatusOptions": {
+      "source": "@system.battery.d.ts",
+      "bindings": "GetStatusOptions"
+    },
+    "Brightness": {
+      "source": "@system.brightness.d.ts",
+      "bindings": "default"
+    },
+    "BrightnessModeResponse": {
+      "source": "@system.brightness.d.ts",
+      "bindings": "BrightnessModeResponse"
+    },
+    "BrightnessResponse": {
+      "source": "@system.brightness.d.ts",
+      "bindings": "BrightnessResponse"
+    },
+    "GetBrightnessModeOptions": {
+      "source": "@system.brightness.d.ts",
+      "bindings": "GetBrightnessModeOptions"
+    },
+    "GetBrightnessOptions": {
+      "source": "@system.brightness.d.ts",
+      "bindings": "GetBrightnessOptions"
+    },
+    "SetBrightnessModeOptions": {
+      "source": "@system.brightness.d.ts",
+      "bindings": "SetBrightnessModeOptions"
+    },
+    "SetBrightnessOptions": {
+      "source": "@system.brightness.d.ts",
+      "bindings": "SetBrightnessOptions"
+    },
+    "SetKeepScreenOnOptions": {
+      "source": "@system.brightness.d.ts",
+      "bindings": "SetKeepScreenOnOptions"
+    },
+    "Device": {
+      "source": "@system.device.d.ts",
+      "bindings": "default"
+    },
+    "DeviceResponse": {
+      "source": "@system.device.d.ts",
+      "bindings": "DeviceResponse"
+    },
+    "GetDeviceOptions": {
+      "source": "@system.device.d.ts",
+      "bindings": "GetDeviceOptions"
+    },
+    "Request": {
+      "source": "@system.request.d.ts",
+      "bindings": "default"
+    },
+    "DownloadRequestOptions": {
+      "source": "@system.request.d.ts",
+      "bindings": "DownloadRequestOptions"
+    },
+    "DownloadResponse": {
+      "source": "@system.request.d.ts",
+      "bindings": "DownloadResponse"
+    },
+    "OnDownloadCompleteOptions": {
+      "source": "@system.request.d.ts",
+      "bindings": "OnDownloadCompleteOptions"
+    },
+    "OnDownloadCompleteResponse": {
+      "source": "@system.request.d.ts",
+      "bindings": "OnDownloadCompleteResponse"
+    },
+    "RequestData": {
+      "source": "@system.request.d.ts",
+      "bindings": "RequestData"
+    },
+    "RequestFile": {
+      "source": "@system.request.d.ts",
+      "bindings": "RequestFile"
+    },
+    "UploadRequestOptions": {
+      "source": "@system.request.d.ts",
+      "bindings": "UploadRequestOptions"
+    },
+    "UploadResponse": {
+      "source": "@system.request.d.ts",
+      "bindings": "UploadResponse"
+    },
+    "systemLoad": {
+      "source": "@ohos.resourceschedule.systemload.d.ts",
+      "bindings": "default"
+    }
+  }
+}

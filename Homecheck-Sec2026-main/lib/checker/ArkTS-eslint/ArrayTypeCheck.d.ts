@@ -1,0 +1,95 @@
+import { ArkFile } from 'arkanalyzer';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Rule, MatcherCallback } from '../../Index';
+import { Defects, IssueReport } from '../../model/Defects';
+type ArrayOption = 'array' | 'array-simple' | 'generic';
+export type Options = [
+    {
+        default?: ArrayOption;
+        readonly?: ArrayOption;
+    }
+];
+export declare class ArrayTypeCheck implements BaseChecker {
+    private readonly nodeCache;
+    private readonly typeAliasCache;
+    private readonly typeCache;
+    private readonly readonlyCache;
+    private readonly processedNodes;
+    private readonly MAX_RECURSION_DEPTH;
+    readonly ARRAY_NAME = "Array";
+    readonly READONLY_ARRAY_NAME = "ReadonlyArray";
+    readonly READONLY_NAME = "readonly";
+    readonly ARRAY_BRACKET = "[]";
+    private defaultOptions;
+    private messageId;
+    private key;
+    private get messages();
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private filePath;
+    metaData: BaseMetaData;
+    private fileMatcher;
+    constructor();
+    registerMatchers(): MatcherCallback[];
+    check: (target: ArkFile) => void;
+    private clearCache;
+    private visitNode;
+    private checkNodeTypeAnnotation;
+    private isFunctionLikeNode;
+    private isPropertyLikeNode;
+    private checkPropertyLikeNode;
+    private checkFunctionLikeNode;
+    private checkFunctionBody;
+    private checkVariableDeclaration;
+    private checkTypeParameterDeclaration;
+    private checkTypeParameterConstraint;
+    /**
+     * 检查类声明
+     */
+    private checkClassDeclaration;
+    private isArrayType;
+    private checkProcess;
+    private processArrayType;
+    private checkReferenceType;
+    private processConditionalType;
+    private specialCheck;
+    private typesCheck;
+    private isTypeOperatorNode;
+    private handleTypeReference;
+    private processTypeArguments;
+    private checkArrayTypeNode;
+    private checkTypeReferenceNode;
+    private hasReadonlyModifier;
+    private checkReadonlyNode;
+    private isSimpleType;
+    private calculateSimpleType;
+    private isBasicType;
+    private handleComplexTypes;
+    private handleTypeReferenceSimpleType;
+    private getDefaultOption;
+    private checkArrayType;
+    private getElementType;
+    private checkGenericArrayType;
+    private createIssueKey;
+    private isDuplicateIssue;
+    private addIssueReport;
+    private prepareTypeInfo;
+    private calculatePosition;
+    private createAndStoreIssue;
+    private createFix;
+    private processTypeText;
+    private checkIsSimpleType;
+    private generateReplaceText;
+    private generateArraySimpleText;
+    private generateGenericText;
+    private generateArrayText;
+    private needsParenthesesForArrayType;
+    private needsParenthesesForReadonly;
+    private removeUnnecessaryParentheses;
+    private convertComplexArrayType;
+    private getInnerTypeText;
+    private getMessageType;
+    private getMessageId;
+}
+export {};

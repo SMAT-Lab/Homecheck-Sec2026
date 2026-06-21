@@ -1,0 +1,16 @@
+{
+  "symbols": {
+    "faceAuth": {
+      "source": "@ohos.userIAM.faceAuth.d.ts",
+      "bindings": "default"
+    },
+    "userAuth": {
+      "source": "@ohos.userIAM.userAuth.d.ts",
+      "bindings": "default"
+    },
+    "UserAuthIcon": {
+      "source": "@ohos.userIAM.userAuthIcon.d.ets",
+      "bindings": "default"
+    }
+  }
+}

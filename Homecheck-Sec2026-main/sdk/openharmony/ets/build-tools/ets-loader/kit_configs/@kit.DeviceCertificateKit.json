@@ -1,0 +1,16 @@
+{
+  "symbols": {
+    "cert": {
+      "source": "@ohos.security.cert.d.ts",
+      "bindings": "default"
+    },
+    "certificateManager": {
+      "source": "@ohos.security.certManager.d.ts",
+      "bindings": "default"
+    },
+    "certificateManagerDialog": {
+      "source": "@ohos.security.certManagerDialog.d.ts",
+      "bindings": "default"
+    }
+  }
+}

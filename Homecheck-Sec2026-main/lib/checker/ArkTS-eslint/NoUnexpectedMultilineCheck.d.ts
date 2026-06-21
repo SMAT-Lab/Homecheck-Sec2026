@@ -1,0 +1,32 @@
+import { ts, ArkFile } from 'arkanalyzer';
+import { Rule } from '../../Index';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Defects } from '../../Index';
+import { MatcherCallback } from '../../Index';
+import { IssueReport } from "../../model/Defects";
+export declare class NoUnexpectedMultilineCheck implements BaseChecker {
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    sourceFile: ts.SourceFile;
+    metaData: BaseMetaData;
+    private static readonly sourceFileCache;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    checkNewlineBeforePropertyAccess(code: string): boolean;
+    private testAfterThreeFun;
+    private addIssueReport;
+    private getLineAndColumn;
+    private getSourceFile;
+    private checkNewlineBetweenObjectAndBracket;
+    private checkNewlineBetweenObjectAndBracketBody;
+    private checkNewlineBetweenTagAndTemplateLiteral;
+    private checkNewlineBetweenTagAndTemplateLiteralBody;
+    private checkNewlineBetweenNumeratorAndDivisionOperator;
+    private checkNewlineBetweenNumeratorAndDivisionOperatorBody;
+    private checkNewlineBeforeParen;
+    private checkFunAndC;
+    private checkArkAssignStmt;
+    private checkMethodsInClass;
+    check: (target: ArkFile) => void;
+}

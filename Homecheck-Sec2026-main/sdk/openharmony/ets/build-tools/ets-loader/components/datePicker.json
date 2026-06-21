@@ -1,0 +1,12 @@
+{
+  "name": "DatePicker",
+  "attrs": [
+    "lunar",
+    "onChange",
+    "useMilitaryTime",
+    "disappearTextStyle",
+    "textStyle",
+    "selectedTextStyle",
+    "onDateChange"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "compilier",
+  "version": "0.0.1",
+  "description": "Transpile ace2.0 ui-syntax to support UI control render, Component and State management.",
+  "private": true,
+  "keywords": [
+    "ace",
+    "loader",
+    "webpack"
+  ],
+  "scripts": {
+    "lint": "eslint --fix ./src --ext .ts",
+    "build": "npm run generateDeclarations && ./node_modules/.bin/babel ./src --out-dir lib --extensions .ts && node uglify-source.js lib",
+    "create": "node ./lib/create.js --env projectName",
+    "compile": "webpack --config webpack.config.js --env buildMode=debug projectName",
+    "test": "npm run build && mocha test/test.js && mocha test/test.js --partialUpdate && mocha test/test.js --assertError",
+    "test:coverage": "npm run generateDeclarations && ./node_modules/.bin/babel ./src --out-dir lib --extensions .ts && mocha test/test.js && mocha test/test.js --partialUpdate && mocha test/test.js --assertError",
+    "generateDeclarations": "node ./build_declarations_file.js ../../../interface/sdk-js/api/@internal/component/ets ./declarations ./lib false",
+    "postinstall": "node npm-install.js",
+    "fastbuild": "rollup -c rollup.config.js",
+    "run:arkTest": "mocha \"arkTest_build/ark_compiler_ut/**/*.test.js\"",
+    "run:cleanArkTest": "rm -rf arkTest_build",
+    "arkTest": "npm run generateKitConfigs && ./node_modules/.bin/babel ./test/ark_compiler_ut --out-dir arkTest_build/ark_compiler_ut --extensions .ts && npm run run:arkTest && npm run run:cleanArkTest",
+    "coverage": "node_modules/nyc/bin/nyc.js npm run test:coverage",
+    "duplicate": "jscpd",
+    "generateKitConfigs": "node ./build_kitConfigs_file.js ../../../interface/sdk-js/kits ./kit_configs ../../../interface/sdk-js/api ../../../interface/sdk-js/arkts"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.20.7",
+    "@babel/core": "7.20.12",
+    "@babel/plugin-proposal-class-properties": "7.18.6",
+    "@babel/preset-env": "7.20.2",
+    "@babel/preset-typescript": "7.18.6",
+    "@babel/runtime": "7.20.13",
+    "@typescript-eslint/parser": "5.51.0",
+    "babel-loader": "9.1.2",
+    "chai": "4.3.7",
+    "eslint": "8.34.0",
+    "mocha": "10.2.0",
+    "uglify-js": "3.17.4"
+  },
+  "dependencies": {
+    "@rollup/plugin-babel": "6.0.3",
+    "@rollup/plugin-commonjs": "24.0.1",
+    "@rollup/plugin-terser": "0.3.0",
+    "clean-webpack-plugin": "4.0.0",
+    "copy-webpack-plugin": "11.0.0",
+    "deccjsunit": "^1.0.8",
+    "lodash": "4.17.21",
+    "log4js": "6.7.1",
+    "sinon": "^15.0.4",
+    "source-map": "0.7.4",
+    "ts-loader": "9.4.2",
+    "webpack": "5.72.1",
+    "webpack-cli": "5.0.2",
+    "ws": "8.5.0"
+  }
+}

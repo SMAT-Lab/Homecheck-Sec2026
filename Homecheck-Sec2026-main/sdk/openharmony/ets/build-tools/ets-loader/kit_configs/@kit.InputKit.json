@@ -1,0 +1,112 @@
+{
+  "symbols": {
+    "ActionType": {
+      "source": "@ohos.multimodalInput.gestureEvent.d.ts",
+      "bindings": "ActionType"
+    },
+    "FourFingersSwipe": {
+      "source": "@ohos.multimodalInput.gestureEvent.d.ts",
+      "bindings": "FourFingersSwipe"
+    },
+    "Pinch": {
+      "source": "@ohos.multimodalInput.gestureEvent.d.ts",
+      "bindings": "Pinch"
+    },
+    "Rotate": {
+      "source": "@ohos.multimodalInput.gestureEvent.d.ts",
+      "bindings": "Rotate"
+    },
+    "ThreeFingersSwipe": {
+      "source": "@ohos.multimodalInput.gestureEvent.d.ts",
+      "bindings": "ThreeFingersSwipe"
+    },
+    "ThreeFingersTap": {
+      "source": "@ohos.multimodalInput.gestureEvent.d.ts",
+      "bindings": "ThreeFingersTap"
+    },
+    "infraredEmitter": {
+      "source": "@ohos.multimodalInput.infraredEmitter.d.ts",
+      "bindings": "default"
+    },
+    "inputDevice": {
+      "source": "@ohos.multimodalInput.inputDevice.d.ts",
+      "bindings": "default"
+    },
+    "inputDeviceCooperate": {
+      "source": "@ohos.multimodalInput.inputDeviceCooperate.d.ts",
+      "bindings": "default"
+    },
+    "InputEvent": {
+      "source": "@ohos.multimodalInput.inputEvent.d.ts",
+      "bindings": "InputEvent"
+    },
+    "IntentionCode": {
+      "source": "@ohos.multimodalInput.intentionCode.d.ts",
+      "bindings": "IntentionCode"
+    },
+    "KeyCode": {
+      "source": "@ohos.multimodalInput.keyCode.d.ts",
+      "bindings": "KeyCode"
+    },
+    "Action": {
+      "source": "@ohos.multimodalInput.keyEvent.d.ts",
+      "bindings": "Action"
+    },
+    "Key": {
+      "source": "@ohos.multimodalInput.keyEvent.d.ts",
+      "bindings": "Key"
+    },
+    "KeyEvent": {
+      "source": "@ohos.multimodalInput.keyEvent.d.ts",
+      "bindings": "KeyEvent"
+    },
+    "MouseAction": {
+      "source": "@ohos.multimodalInput.mouseEvent.d.ts",
+      "bindings": "Action"
+    },
+    "Axis": {
+      "source": "@ohos.multimodalInput.mouseEvent.d.ts",
+      "bindings": "Axis"
+    },
+    "AxisValue": {
+      "source": "@ohos.multimodalInput.mouseEvent.d.ts",
+      "bindings": "AxisValue"
+    },
+    "Button": {
+      "source": "@ohos.multimodalInput.mouseEvent.d.ts",
+      "bindings": "Button"
+    },
+    "MouseEvent": {
+      "source": "@ohos.multimodalInput.mouseEvent.d.ts",
+      "bindings": "MouseEvent"
+    },
+    "MouseToolType": {
+      "source": "@ohos.multimodalInput.mouseEvent.d.ts",
+      "bindings": "ToolType"
+    },
+    "pointer": {
+      "source": "@ohos.multimodalInput.pointer.d.ts",
+      "bindings": "default"
+    },
+    "KeyAction": {
+      "source": "@ohos.multimodalInput.touchEvent.d.ts",
+      "bindings": "Action"
+    },
+    "SourceType": {
+      "source": "@ohos.multimodalInput.touchEvent.d.ts",
+      "bindings": "SourceType"
+    },
+    "ToolType": {
+      "source": "@ohos.multimodalInput.touchEvent.d.ts",
+      "bindings": "ToolType"
+    },
+    "Touch": {
+      "source": "@ohos.multimodalInput.touchEvent.d.ts",
+      "bindings": "Touch"
+    },
+    "TouchEvent": {
+      "source": "@ohos.multimodalInput.touchEvent.d.ts",
+      "bindings": "TouchEvent"
+    }
+  }
+}

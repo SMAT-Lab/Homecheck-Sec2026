@@ -1,0 +1,35 @@
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Scene } from 'arkanalyzer';
+import { Defects, MatcherCallback, Rule } from '../../Index';
+import { IssueReport } from '../../model/Defects';
+export declare class AvsessionButtonsCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    registerMatchers(): MatcherCallback[];
+    check: (scene: Scene) => void;
+    private processClass;
+    private processReportIssue;
+    private processArkMethod;
+    private isAwaitReturnStmt;
+    private getPromiseThenCallbackMethod;
+    private processCallbackMethod;
+    private handleInvokeStmt;
+    private handleMultimediaArgs;
+    private parseRealAttachInstance;
+    private isArgTypeMultimedia;
+    private getInvokeCallbackMethod;
+    private parseInvokerAudioInterruptStmt;
+    private getFieldByBase;
+    private commonInvokerMatch;
+    private isInvokerAndStmtMatch;
+    private isDesignatedField;
+    private getReturnOp;
+    private isResolveAssignToVariable;
+    private isInstanceAssignToVariable;
+    private isMultimediaCreateStmt;
+    private isAudioInterruptStmt;
+    private isAudioInterruptSignature;
+    private reportIssue;
+}

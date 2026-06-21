@@ -1,0 +1,36 @@
+{
+  "symbols": {
+    "CollaborationCameraBusinessFilter": {
+      "source": "@hms.collaboration.camera",
+      "bindings": "CollaborationCameraBusinessFilter"
+    },
+    "createCollaborationCameraMenuItems": {
+      "source": "@hms.collaboration.camera",
+      "bindings": "createCollaborationCameraMenuItems"
+    },
+    "CollaborationCameraStateDialog": {
+      "source": "@hms.collaboration.camera",
+      "bindings": "CollaborationCameraStateDialog"
+    },
+    "CollaborationServiceFilter": {
+      "source": "@hms.collaboration.service",
+      "bindings": "CollaborationServiceFilter"
+    },
+    "createCollaborationServiceMenuItems": {
+      "source": "@hms.collaboration.service",
+      "bindings": "createCollaborationServiceMenuItems"
+    },
+    "CollaborationServiceStateDialog": {
+      "source": "@hms.collaboration.service",
+      "bindings": "CollaborationServiceStateDialog"
+    },
+    "CollaborationDevicePicker": {
+      "source": "@hms.collaboration.CollaborationDevicePicker",
+      "bindings": "CollaborationDevicePicker"
+    },
+    "devicePicker": {
+      "source": "@hms.collaboration.devicePicker",
+      "bindings": "default"
+    }
+  }
+}

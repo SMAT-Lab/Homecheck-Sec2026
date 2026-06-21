@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "stationary": {
+      "source": "@ohos.stationary.d.ts",
+      "bindings": "default"
+    }
+  }
+}

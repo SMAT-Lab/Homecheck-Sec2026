@@ -1,0 +1,16 @@
+{
+  "symbols": {
+    "FunctionalButton": {
+      "source": "@hms.core.atomicserviceComponent.atomicserviceUi",
+      "bindings": "FunctionalButton"
+    },
+    "functionalButtonComponentManager": {
+      "source": "@hms.core.atomicserviceComponent.atomicserviceUi",
+      "bindings": "functionalButtonComponentManager"
+    },
+    "atomicService": {
+      "source": "@hms.core.atomicserviceComponent.atomicservice",
+      "bindings": "default"
+    }
+  }
+}

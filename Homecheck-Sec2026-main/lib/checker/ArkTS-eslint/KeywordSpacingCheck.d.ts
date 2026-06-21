@@ -1,0 +1,48 @@
+import { ts, ArkFile } from 'arkanalyzer/lib';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { MatcherCallback } from '../../matcher/Matchers';
+import { Defects, IssueReport } from '../../model/Defects';
+import { Rule } from '../../model/Rule';
+type KewordDetail = {
+    name: string;
+    kind: ts.SyntaxKind;
+    node: ts.Node;
+    before: boolean;
+    after: boolean;
+    lineFirst: boolean;
+    lineNo: number;
+    colStrNo: number;
+    colEndNo: number;
+    isDefectBefore?: boolean;
+    isDefectAfter?: boolean;
+    isLeadingCharNormal?: boolean;
+    isTrailingCharNormal?: boolean;
+    leadingDistance?: number;
+    trailingDistance?: number;
+};
+export declare class KeywordSpacingCheck implements BaseChecker {
+    codeFix?(arkFile: ArkFile, fixKey: string): boolean;
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private issueMap;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (targetFile: ArkFile) => void;
+    loopNode(targetFile: ArkFile, sourceFile: ts.SourceFile, aNode: ts.Node, alloct?: KewordDetail[]): KewordDetail[];
+    private checkKeywordSpacing;
+    private getPreviousNonSpaceCharacter;
+    private getNextNonSpaceCharacter;
+    private isNormalCharacter;
+    private deleteBorderSpaces;
+    checkIndexSignature(node: ts.Node): boolean;
+    private addIssueReport;
+    private ruleFix;
+    private reportSortedIssues;
+    private processKeyword;
+    private execFix;
+    private getPreviousSiblingBefore;
+    private getPreviousSiblingEnd;
+}
+export {};

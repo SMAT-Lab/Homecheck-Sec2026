@@ -1,0 +1,33 @@
+import { ArkMethod } from "arkanalyzer";
+import { MatcherCallback } from "../../matcher/Matchers";
+import { Defects, IssueReport } from "../../model/Defects";
+import { Rule } from "../../model/Rule";
+import { BaseChecker, BaseMetaData } from "../BaseChecker";
+export declare class NoEmptyCharacterClassCheck implements BaseChecker {
+    readonly REG_EXP = "RegExp";
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    metaData: BaseMetaData;
+    private fileMatcher;
+    private methodMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (target: ArkMethod) => void;
+    private checkCode;
+    private getRegexStartPosition;
+    private checkUnclosedCharClass;
+    private extractRegexContent;
+    private checkEmptyClass;
+    private handleClosingBracket;
+    private checkNestedEmptyClass;
+    private findNestedEmptyClassPositions;
+    private checkSetOperationEmptyClass;
+    private analyzeSetOperation;
+    private findEmptyClassPositions;
+    private processCharacter;
+    private isEscapeSequence;
+    private processClosingBracket;
+    private checkOperatorContext;
+    private addIssueReport;
+    private getLineAndColumn;
+}

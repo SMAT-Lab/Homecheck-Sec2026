@@ -1,0 +1,68 @@
+{
+  "symbols": {
+    "cloudData": {
+      "source": "@ohos.data.cloudData.d.ts",
+      "bindings": "default"
+    },
+    "cloudExtension": {
+      "source": "@ohos.data.cloudExtension.d.ts",
+      "bindings": "default"
+    },
+    "commonType": {
+      "source": "@ohos.data.commonType.d.ts",
+      "bindings": "default"
+    },
+    "dataAbility": {
+      "source": "@ohos.data.dataAbility.d.ts",
+      "bindings": "default"
+    },
+    "dataSharePredicates": {
+      "source": "@ohos.data.dataSharePredicates.d.ts",
+      "bindings": "default"
+    },
+    "distributedDataObject": {
+      "source": "@ohos.data.distributedDataObject.d.ts",
+      "bindings": "default"
+    },
+    "distributedKVStore": {
+      "source": "@ohos.data.distributedKVStore.d.ts",
+      "bindings": "default"
+    },
+    "preferences": {
+      "source": "@ohos.data.preferences.d.ts",
+      "bindings": "default"
+    },
+    "relationalStore": {
+      "source": "@ohos.data.relationalStore.d.ts",
+      "bindings": "default"
+    },
+    "unifiedDataChannel": {
+      "source": "@ohos.data.unifiedDataChannel.d.ts",
+      "bindings": "default"
+    },
+    "uniformTypeDescriptor": {
+      "source": "@ohos.data.uniformTypeDescriptor.d.ts",
+      "bindings": "default"
+    },
+    "uniformDataStruct": {
+      "source": "@ohos.data.uniformDataStruct.d.ts",
+      "bindings": "default"
+    },
+    "ValueType": {
+      "source": "@ohos.data.ValuesBucket.d.ts",
+      "bindings": "ValueType"
+    },
+    "ValuesBucket": {
+      "source": "@ohos.data.ValuesBucket.d.ts",
+      "bindings": "ValuesBucket"
+    },
+    "sendablePreferences": {
+      "source": "@ohos.data.sendablePreferences.d.ets",
+      "bindings": "default"
+    },
+    "sendableRelationalStore": {
+      "source": "@ohos.data.sendableRelationalStore.d.ets",
+      "bindings": "default"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+import { ArkFile } from 'arkanalyzer';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Defects, IssueReport } from '../../model/Defects';
+import { Rule } from '../../model/Rule';
+import { MatcherCallback } from '../../matcher/Matchers';
+export declare class GifHardwareDecodingCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private buildMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (arkFile: ArkFile) => void;
+    private isDefaultHardwareVersion;
+    private getVersionResult;
+    private getMaJarVersion;
+    private processArkFile;
+    private processArkMethod;
+    private processStmt;
+    private processGifOptionInfoIfHardwareDecode;
+    private processGifOptionInfo;
+    private getRealBase;
+    private isHardwareDecode;
+    private getGifOptionInfo;
+    private processAssignStmt;
+    private updateLeftOptionHardware;
+    private getRightOptionInfo;
+    private getGifDrawableVersion;
+    private reportIssue;
+}

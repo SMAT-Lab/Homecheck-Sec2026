@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "ringtone": {
+      "source": "@hms.core.ringtone",
+      "bindings": "default"
+    }
+  }
+}

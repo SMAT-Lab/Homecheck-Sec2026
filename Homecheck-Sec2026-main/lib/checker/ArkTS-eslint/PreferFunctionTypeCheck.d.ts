@@ -1,0 +1,36 @@
+import { ArkFile } from 'arkanalyzer';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Defects, IssueReport } from '../../model/Defects';
+import { Rule } from '../../model/Rule';
+import { MatcherCallback } from '../../matcher/Matchers';
+export declare class PreferFunctionTypeCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private buildMatcher;
+    registerMatchers(): MatcherCallback[];
+    private filepatch;
+    check: (arkFile: ArkFile) => void;
+    private checkPreferFunctionType;
+    private checkHeritageClauses;
+    private hasPropertySignature;
+    private isInterfaceOrClass;
+    private hasPropertyInMembers;
+    private checkInterfaceOrTypeAlias;
+    private processNodeMembers;
+    private processMember;
+    private escapeRegExp;
+    private checkTypeAliasDeclaration;
+    private handleSingleCallSignature;
+    private extractCallSignatureInfo;
+    private checkFunctionOrVariableDeclaration;
+    private checkParameterType;
+    private CheckUsesThisType;
+    private reportTypeLiteral;
+    private createDefect;
+    private getLineAndColumn;
+    private createFix;
+    private handleSingleConstructSignature;
+    private generateFixKeyword;
+}

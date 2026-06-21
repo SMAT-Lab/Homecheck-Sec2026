@@ -1,0 +1,48 @@
+{
+  "symbols": {
+    "inputMethod": {
+      "source": "@ohos.inputMethod.d.ts",
+      "bindings": "default"
+    },
+    "inputMethodEngine": {
+      "source": "@ohos.inputMethodEngine.d.ts",
+      "bindings": "default"
+    },
+    "InputMethodExtensionAbility": {
+      "source": "@ohos.InputMethodExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "InputMethodExtensionContext": {
+      "source": "@ohos.InputMethodExtensionContext.d.ts",
+      "bindings": "default"
+    },
+    "InputMethodSubtype": {
+      "source": "@ohos.InputMethodSubtype.d.ts",
+      "bindings": "default"
+    },
+    "InputMethodListDialog": {
+      "source": "@ohos.inputMethodList.d.ets",
+      "bindings": "InputMethodListDialog"
+    },
+    "PatternOptions": {
+      "source": "@ohos.inputMethodList.d.ets",
+      "bindings": "PatternOptions"
+    },
+    "Pattern": {
+      "source": "@ohos.inputMethodList.d.ets",
+      "bindings": "Pattern"
+    },
+    "PanelInfo": {
+      "source": "@ohos.inputMethod.Panel.d.ts",
+      "bindings": "PanelInfo"
+    },
+    "PanelType": {
+      "source": "@ohos.inputMethod.Panel.d.ts",
+      "bindings": "PanelType"
+    },
+    "PanelFlag": {
+      "source": "@ohos.inputMethod.Panel.d.ts",
+      "bindings": "PanelFlag"
+    }
+  }
+}

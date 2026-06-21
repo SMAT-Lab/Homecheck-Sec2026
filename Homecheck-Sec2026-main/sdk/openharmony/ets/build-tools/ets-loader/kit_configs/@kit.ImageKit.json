@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "image": {
+      "source": "@ohos.multimedia.image.d.ts",
+      "bindings": "default"
+    },
+    "sendableImage": {
+      "source": "@ohos.multimedia.sendableImage.d.ets",
+      "bindings": "default"
+    }
+  }
+}

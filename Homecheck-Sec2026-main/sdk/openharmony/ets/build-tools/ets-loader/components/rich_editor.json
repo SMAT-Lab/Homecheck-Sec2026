@@ -1,0 +1,8 @@
+{
+  "name": "RichEditor",
+  "atomic": true,
+  "attrs": [
+    "onReady", "onSelect", "aboutToIMEInput",
+    "onIMEInputComplete", "aboutToDelete", "onDeleteComplete"
+  ]
+}

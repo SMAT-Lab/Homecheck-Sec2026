@@ -1,0 +1,108 @@
+{
+  "symbols": {
+    "sensor": {
+      "source": "@ohos.sensor.d.ts",
+      "bindings": "default"
+    },
+    "vibrator": {
+      "source": "@ohos.vibrator.d.ts",
+      "bindings": "default"
+    },
+    "Sensor": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "default"
+    },
+    "AccelerometerResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "AccelerometerResponse"
+    },
+    "BarometerResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "BarometerResponse"
+    },
+    "CompassResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "CompassResponse"
+    },
+    "DeviceOrientationResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "DeviceOrientationResponse"
+    },
+    "GetOnBodyStateOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "GetOnBodyStateOptions"
+    },
+    "GyroscopeResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "GyroscopeResponse"
+    },
+    "HeartRateResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "HeartRateResponse"
+    },
+    "LightResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "LightResponse"
+    },
+    "OnBodyStateResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "OnBodyStateResponse"
+    },
+    "ProximityResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "ProximityResponse"
+    },
+    "StepCounterResponse": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "StepCounterResponse"
+    },
+    "SubscribeBarometerOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeBarometerOptions"
+    },
+    "SubscribeCompassOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeCompassOptions"
+    },
+    "SubscribeDeviceOrientationOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeDeviceOrientationOptions"
+    },
+    "SubscribeGyroscopeOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeGyroscopeOptions"
+    },
+    "SubscribeHeartRateOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeHeartRateOptions"
+    },
+    "SubscribeLightOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeLightOptions"
+    },
+    "SubscribeOnBodyStateOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeOnBodyStateOptions"
+    },
+    "SubscribeProximityOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeProximityOptions"
+    },
+    "SubscribeStepCounterOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "SubscribeStepCounterOptions"
+    },
+    "subscribeAccelerometerOptions": {
+      "source": "@system.sensor.d.ts",
+      "bindings": "subscribeAccelerometerOptions"
+    },
+    "Vibrator": {
+      "source": "@system.vibrator.d.ts",
+      "bindings": "default"
+    },
+    "VibrateOptions": {
+      "source": "@system.vibrator.d.ts",
+      "bindings": "VibrateOptions"
+    }
+  }
+}

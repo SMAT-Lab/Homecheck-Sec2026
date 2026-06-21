@@ -1,0 +1,72 @@
+{
+  "symbols": {
+    "interactiveLiveness": {
+      "source": "@hms.ai.interactiveLiveness",
+      "bindings": "default"
+    },
+    "visionImageAnalyzer": {
+      "source": "@hms.ai.visionImageAnalyzer",
+      "bindings": "default"
+    },
+    "CardRecognition": {
+      "source": "@hms.ai.CardRecognition",
+      "bindings": "CardRecognition"
+    },
+    "CallbackParam": {
+      "source": "@hms.ai.CardRecognition",
+      "bindings": "CallbackParam"
+    },
+    "CardType": {
+      "source": "@hms.ai.CardRecognition",
+      "bindings": "CardType"
+    },
+    "CardSide": {
+      "source": "@hms.ai.CardRecognition",
+      "bindings": "CardSide"
+    },
+    "CardRecognitionConfig": {
+      "source": "@hms.ai.CardRecognition",
+      "bindings": "CardRecognitionConfig"
+    },
+    "CardContentConfig": {
+      "source": "@hms.ai.CardRecognition",
+      "bindings": "CardContentConfig"
+    },
+    "BankCardConfig": {
+      "source": "@hms.ai.CardRecognition",
+      "bindings": "BankCardConfig"
+    },
+    "DocumentScanner": {
+      "source": "@hms.ai.DocumentScanner",
+      "bindings": "DocumentScanner"
+    },
+    "DocumentScannerConfig": {
+      "source": "@hms.ai.DocumentScanner",
+      "bindings": "DocumentScannerConfig"
+    },
+    "DocType": {
+      "source": "@hms.ai.DocumentScanner",
+      "bindings": "DocType"
+    },
+    "FilterId": {
+      "source": "@hms.ai.DocumentScanner",
+      "bindings": "FilterId"
+    },
+    "ShootingMode": {
+      "source": "@hms.ai.DocumentScanner",
+      "bindings": "ShootingMode"
+    },
+    "EditTab": {
+      "source": "@hms.ai.DocumentScanner",
+      "bindings": "EditTab"
+    },
+    "SaveOption": {
+      "source": "@hms.ai.DocumentScanner",
+      "bindings": "SaveOption"
+    },
+    "DocumentScannerResultCallback": {
+      "source": "@hms.ai.DocumentScanner",
+      "bindings": "DocumentScannerResultCallback"
+    }
+  }
+}

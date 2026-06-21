@@ -1,0 +1,32 @@
+import { ArkFile } from "arkanalyzer/lib";
+import { BaseChecker, BaseMetaData } from "../BaseChecker";
+import { Defects } from "../../model/Defects";
+import { MatcherCallback } from "../../matcher/Matchers";
+import { Rule } from "../../model/Rule";
+import { IssueReport } from '../../model/Defects';
+export declare class NoEmptyFunctionCheck implements BaseChecker {
+    private defaultOptions;
+    readonly metaData: BaseMetaData;
+    defects: Defects[];
+    issues: IssueReport[];
+    rule: Rule;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (targetField: ArkFile) => void;
+    private checkNoEmptyFunction;
+    private isAsyncFunction;
+    private isAsyncMethod;
+    private isMethodEmpty;
+    private isStandaloneModifier;
+    private isCurlyBracketsEnclosed;
+    private isAllowedEmptyFunction;
+    private getErrorMessage;
+    private getStaticPrefix;
+    private getNameText;
+    private handleArrowFunction;
+    private handleFunctionExpression;
+    private handleMethodDeclaration;
+    private handleFunctionDeclaration;
+    private handleAccessor;
+    private addIssueReport;
+}

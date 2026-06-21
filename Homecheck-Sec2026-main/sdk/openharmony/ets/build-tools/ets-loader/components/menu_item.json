@@ -1,0 +1,5 @@
+{
+    "name": "MenuItem",
+    "parent": ["Menu", "MenuItemGroup"],
+    "attrs": ["selectIcon", "onChange"]
+  }

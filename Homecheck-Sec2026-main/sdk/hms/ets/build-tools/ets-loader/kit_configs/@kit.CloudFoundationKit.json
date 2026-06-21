@@ -1,0 +1,20 @@
+{
+  "symbols": {
+    "cloudCommon": {
+      "source": "@hms.core.deviceCloudGateway.cloudCommon",
+      "bindings": "default"
+    },
+    "cloudFunction": {
+      "source": "@hms.core.deviceCloudGateway.cloudFunction",
+      "bindings": "default"
+    },
+    "cloudStorage": {
+      "source": "@hms.core.deviceCloudGateway.cloudStorage",
+      "bindings": "default"
+    },
+    "cloudDatabase": {
+      "source": "@hms.core.deviceCloudGateway.cloudDatabase",
+      "bindings": "default"
+    }
+  }
+}

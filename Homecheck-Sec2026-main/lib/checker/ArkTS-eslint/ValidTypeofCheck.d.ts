@@ -1,0 +1,36 @@
+import { ArkField, ArkMethod } from 'arkanalyzer';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Rule, Defects, MatcherCallback } from '../../Index';
+import { IssueReport } from '../../model/Defects';
+export declare class ValidTypeofCheck implements BaseChecker {
+    readonly TYPEOF_NAME = "typeof";
+    private defaultOptions;
+    private messageId;
+    private messages;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private textIndexCache;
+    metaData: BaseMetaData;
+    private fieldMatcher;
+    private fileMatcher;
+    private clsMatcher;
+    private methodMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (target: ArkMethod | ArkField) => void;
+    private checkArkField;
+    private checkArkMethod;
+    private checkExpr;
+    private checkMode;
+    private checkParameter;
+    private checkIsString;
+    private checkIsUndefined;
+    private checkIsNullIsBooleanIsNumber;
+    private checkIsObjectIsFunction;
+    private getOpValue;
+    private getRightOpStr;
+    private addIssueReport;
+    private getLineAndColumn;
+    private getStartCol;
+    private isStringType;
+}

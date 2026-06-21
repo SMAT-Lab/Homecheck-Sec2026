@@ -1,0 +1,32 @@
+{
+  "symbols": {
+    "textRecognition": {
+      "source": "@hms.ai.ocr.textRecognition",
+      "bindings": "default"
+    },
+    "faceDetector": {
+      "source": "@hms.ai.face.faceDetector",
+      "bindings": "default"
+    },
+    "faceComparator": {
+      "source": "@hms.ai.face.faceComparator",
+      "bindings": "default"
+    },
+    "subjectSegmentation": {
+      "source": "@hms.ai.vision.subjectSegmentation",
+      "bindings": "default"
+    },
+    "visionBase": {
+      "source": "@hms.ai.vision.visionBase",
+      "bindings": "default"
+    },
+    "objectDetection": {
+      "source": "@hms.ai.vision.objectDetection",
+      "bindings": "default"
+    },
+    "skeletonDetection": {
+      "source": "@hms.ai.vision.skeletonDetection",
+      "bindings": "default"
+    }
+  }
+}

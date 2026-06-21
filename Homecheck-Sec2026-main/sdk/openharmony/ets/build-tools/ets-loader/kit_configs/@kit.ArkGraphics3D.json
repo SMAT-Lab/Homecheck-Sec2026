@@ -1,0 +1,160 @@
+{
+  "symbols": {
+    "ToneMappingType": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "ToneMappingType"
+    },
+    "ToneMappingSettings": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "ToneMappingSettings"
+    },
+    "PostProcessSettings": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "PostProcessSettings"
+    },
+    "Vec2": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Vec2"
+    },
+    "Vec3": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Vec3"
+    },
+    "Vec4": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Vec4"
+    },
+    "Color": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Color"
+    },
+    "Rect": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Rect"
+    },
+    "Quaternion": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Quaternion"
+    },
+    "Aabb": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Aabb"
+    },
+    "Position3": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Position3"
+    },
+    "Rotation3": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Rotation3"
+    },
+    "Scale3": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Scale3"
+    },
+    "SceneResourceType": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "SceneResourceType"
+    },
+    "SceneResource": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "SceneResource"
+    },
+    "Shader": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Shader"
+    },
+    "MaterialType": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "MaterialType"
+    },
+    "Material": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Material"
+    },
+    "ShaderMaterial": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "ShaderMaterial"
+    },
+    "SubMesh": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "SubMesh"
+    },
+    "Mesh": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Mesh"
+    },
+    "Animation": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Animation"
+    },
+    "EnvironmentBackgroundType": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "EnvironmentBackgroundType"
+    },
+    "Environment": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Environment"
+    },
+    "Image": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Image"
+    },
+    "LayerMask": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "LayerMask"
+    },
+    "NodeType": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "NodeType"
+    },
+    "Container": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Container"
+    },
+    "Node": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Node"
+    },
+    "Geometry": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Geometry"
+    },
+    "LightType": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "LightType"
+    },
+    "Light": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Light"
+    },
+    "SpotLight": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "SpotLight"
+    },
+    "DirectionalLight": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "DirectionalLight"
+    },
+    "Camera": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Camera"
+    },
+    "SceneResourceParameters": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "SceneResourceParameters"
+    },
+    "SceneNodeParameters": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "SceneNodeParameters"
+    },
+    "SceneResourceFactory": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "SceneResourceFactory"
+    },
+    "Scene": {
+      "source": "@ohos.graphics.scene.d.ts",
+      "bindings": "Scene"
+    }
+  }
+}

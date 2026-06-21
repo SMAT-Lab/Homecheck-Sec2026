@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "healthStore": {
+      "source": "@hms.health.store",
+      "bindings": "default"
+    },
+    "healthService": {
+      "source": "@hms.health.service",
+      "bindings": "default"
+    }
+  }
+}

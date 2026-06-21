@@ -1,0 +1,85 @@
+import { ArkFile, ts } from 'arkanalyzer';
+import { Rule } from '../../Index';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Defects } from '../../Index';
+import { MatcherCallback } from '../../Index';
+import { IssueReport } from '../../model/Defects';
+export declare class SpaceInfixOpsCheck implements BaseChecker {
+    issues: IssueReport[];
+    rule: Rule;
+    defects: Defects[];
+    sourceFile: ts.SourceFile;
+    firstDealFlag: boolean;
+    countTypeColumnFlag: number;
+    firstEqualsFlag: boolean;
+    isConditionalTypeFlag: boolean;
+    specialTypeAliasDeclarationFlag: boolean;
+    private defaultOptions;
+    metaData: BaseMetaData;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    /**
+     * 检测代码中的 space-infix-ops 规则错误
+     * @param code 需要检测的代码字符串
+     * @param int32Hint 是否强制要求 |0 操作符周围有空格
+     */
+    private checkSpaceInfixOps;
+    private processExpressionNodes;
+    private processDeclarationNodes;
+    private processTypeNodes;
+    private checkOperatorSpacing;
+    private handleInt32HintOperator;
+    private handleUnionOrIntersectionType;
+    private checkFirstTypeOperator;
+    private checkBetweenTypesOperators;
+    private checkTypesPairOperator;
+    private findOperatorMatch;
+    private validateOperatorSpacing;
+    private addOperatorSpacingError;
+    private handleUnionOrIntersectionTypeWithContext;
+    private handleUnionOrIntersectionTypeForInterface;
+    private checkNestedType;
+    private handleTypeAliasDeclaration;
+    private handleParenthesizedOperators;
+    check: (targetField: ArkFile) => void;
+    private sortMyInvalidPositions;
+    private ruleFix;
+    private ruleFixForTypeColumn;
+    private ruleFixForConditionalTypeNode;
+    private addIssueReport;
+    private getFixForNode;
+    private getExpressionFix;
+    private getDeclarationFix;
+    private getTypeFix;
+    private handleBinaryExpressionFix;
+    private handleConditionalExpressionFix;
+    private handlePropertyAssignmentFix;
+    private handleParameterInitializerFix;
+    private handleEnumMemberInitializerFix;
+    private handleVariableDeclarationFix;
+    private handleBindingElementFix;
+    private handlePropertyDeclarationFix;
+    private handlePropertySignatureFix;
+    private handleTypeAliasDeclarationFix;
+    private handleTypeAliasWithEqualSpace;
+    private handleTypeAliasTwoTypes;
+    private handleTypeAliasThreeTypes;
+    private handleTypeAliasThreeTypesEmptyFirst;
+    private handleTypeAliasThreeTypesWithFirst;
+    private handleTypeAliasWithNewline;
+    private handleTypeAliasWithoutEqualSpace;
+    private handleTypeAliasWithoutEqualSpaceTwoTypes;
+    private handleTypeAliasWithoutEqualSpaceMultiTypes;
+    private handleMultiTypesEqualsCheck;
+    private handleMultiTypesSpacingCheck;
+    private handleMultiTypesWithFirstText;
+    private handleMultiTypesWithEmptyFirst;
+    private handleConditionalTypeNodeFix;
+    private handleSimpleConditionalType;
+    private handleNewlineStartConditionalType;
+    private handleMidNewlineConditionalType;
+    private handleMidNewlineColonFix;
+    private handleUnionOrIntersectionTypeFix;
+    private handleInterfaceDeclarationFix;
+    private handleInterfacePropertyUnionTypeFix;
+}

@@ -1,0 +1,24 @@
+{
+  "symbols": {
+    "cryptoFramework": {
+      "source": "@ohos.security.cryptoFramework.d.ts",
+      "bindings": "default"
+    },
+    "Cipher": {
+      "source": "@system.cipher.d.ts",
+      "bindings": "default"
+    },
+    "CipherAesOptions": {
+      "source": "@system.cipher.d.ts",
+      "bindings": "CipherAesOptions"
+    },
+    "CipherResponse": {
+      "source": "@system.cipher.d.ts",
+      "bindings": "CipherResponse"
+    },
+    "CipherRsaOptions": {
+      "source": "@system.cipher.d.ts",
+      "bindings": "CipherRsaOptions"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+import { ArkClass } from 'arkanalyzer/lib/core/model/ArkClass';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Rule, Defects, MatcherCallback } from '../../Index';
+import { IssueReport } from '../../model/Defects';
+export declare class JsCodeCacheByInterceptionCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private viewTreeTool;
+    private buildMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (arkClass: ArkClass) => void;
+    private traverseViewTree;
+    private traverseStmts;
+    private processBlocks;
+    private processOnInterceptRequestMethod;
+    private parseTargetArg;
+    private getArgType;
+    private isIfBlock;
+    private getIfConditionStmt;
+    private getScopeLevel;
+    private isInterceptionJs;
+    private getConditionValueType;
+    private getCustomScheme;
+    private isConditionIncludeJs;
+    private getCustomSchemeModel;
+    private processArkClass;
+    private processSchemeContent;
+    private processSchemeValue;
+    private getSchemeAndCodeCacheSupport;
+    private getFieldValue;
+    private hasHeaderSetResponseDataId;
+    private isSetResponseDataId;
+    private reportIssue;
+}

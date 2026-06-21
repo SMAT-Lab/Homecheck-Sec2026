@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "fileGuard": {
+      "source": "@hms.pcService.fileGuard",
+      "bindings": "default"
+    }
+  }
+}

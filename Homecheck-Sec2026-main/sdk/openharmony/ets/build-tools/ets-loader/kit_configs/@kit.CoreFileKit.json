@@ -1,0 +1,116 @@
+{
+  "symbols": {
+    "BackupExtensionAbility": {
+      "source": "@ohos.application.BackupExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "BundleVersion": {
+      "source": "@ohos.application.BackupExtensionAbility.d.ts",
+      "bindings": "BundleVersion"
+    },
+    "BackupExtensionContext": {
+      "source": "@ohos.file.BackupExtensionContext.d.ts",
+      "bindings": "default"
+    },
+    "cloudSync": {
+      "source": "@ohos.file.cloudSync.d.ts",
+      "bindings": "default"
+    },
+    "cloudSyncManager": {
+      "source": "@ohos.file.cloudSyncManager.d.ts",
+      "bindings": "default"
+    },
+    "Environment": {
+      "source": "@ohos.file.environment.d.ts",
+      "bindings": "default"
+    },
+    "fileAccess": {
+      "source": "@ohos.file.fileAccess.d.ts",
+      "bindings": "default"
+    },
+    "fileUri": {
+      "source": "@ohos.file.fileuri.d.ts",
+      "bindings": "default"
+    },
+    "fileIo": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "default"
+    },
+    "ConflictFiles": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "ConflictFiles"
+    },
+    "Filter": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "Filter"
+    },
+    "Options": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "Options"
+    },
+    "ReaderIteratorResult": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "ReaderIteratorResult"
+    },
+    "WatchEvent": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "WatchEvent"
+    },
+    "WatchEventListener": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "WatchEventListener"
+    },
+    "Watcher": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "Watcher"
+    },
+    "ReadOptions": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "ReadOptions"
+    },
+    "ReadTextOptions": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "ReadTextOptions"
+    },
+    "WriteOptions": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "WriteOptions"
+    },
+    "ListFileOptions": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "ListFileOptions"
+    },
+    "DfsListeners": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "DfsListeners"
+    },
+    "TaskSignal": {
+      "source": "@ohos.file.fs.d.ts",
+      "bindings": "TaskSignal"
+    },
+    "hash": {
+      "source": "@ohos.file.hash.d.ts",
+      "bindings": "default"
+    },
+    "picker": {
+      "source": "@ohos.file.picker.d.ts",
+      "bindings": "default"
+    },
+    "securityLabel": {
+      "source": "@ohos.file.securityLabel.d.ts",
+      "bindings": "default"
+    },
+    "statfs": {
+      "source": "@ohos.file.statvfs.d.ts",
+      "bindings": "default"
+    },
+    "storageStatistics": {
+      "source": "@ohos.file.storageStatistics.d.ts",
+      "bindings": "default"
+    },
+    "fileShare": {
+      "source": "@ohos.fileshare.d.ts",
+      "bindings": "default"
+    }
+  }
+}

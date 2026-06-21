@@ -1,0 +1,31 @@
+import { ArkFile, ts, Stmt, ArkAssignStmt, ArkInvokeStmt, Value } from 'arkanalyzer/lib';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Defects, IssueReport } from '../../model/Defects';
+import { MatcherCallback } from '../../matcher/Matchers';
+import { Rule } from '../../model/Rule';
+export declare class PreferReduceTypeParameterCheck implements BaseChecker {
+    issues: IssueReport[];
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    sourceFile: ts.SourceFile;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (target: ArkFile) => void;
+    private getStmts;
+    private checkForReduceTypeParameter;
+    private checkIsReduceMethod;
+    private processReduceArguments;
+    private getReduceInfo;
+    private getRedueceTextForArray;
+    private getWarnInfo;
+    private isArrayType;
+    getTypeForReduce(stmt: Stmt): string;
+    getType(stmt: Stmt | Value): string;
+    getTypeFromUsedStmt(used: Stmt): string;
+    getTypeFromInvokeStmt(invokeStmt: ArkInvokeStmt): string;
+    getTypeFromAssignStmt(assignStmt: ArkAssignStmt): string;
+    private reduceruleFix;
+    private addIssueReportNodeFix;
+    private getRedueceText;
+}

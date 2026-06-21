@@ -1,0 +1,84 @@
+{
+  "symbols": {
+    "abilityDelegatorRegistry": {
+      "source": "@ohos.app.ability.abilityDelegatorRegistry.d.ts",
+      "bindings": "default"
+    },
+    "TestRunner": {
+      "source": "@ohos.application.testRunner.d.ts",
+      "bindings": "default"
+    },
+    "BY": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "BY"
+    },
+    "By": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "By"
+    },
+    "Component": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "Component"
+    },
+    "DisplayRotation": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "DisplayRotation"
+    },
+    "Driver": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "Driver"
+    },
+    "MatchPattern": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "MatchPattern"
+    },
+    "MouseButton": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "MouseButton"
+    },
+    "ON": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "ON"
+    },
+    "On": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "On"
+    },
+    "PointerMatrix": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "PointerMatrix"
+    },
+    "ResizeDirection": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "ResizeDirection"
+    },
+    "UIElementInfo": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "UIElementInfo"
+    },
+    "UIEventObserver": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "UIEventObserver"
+    },
+    "UiComponent": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "UiComponent"
+    },
+    "UiDirection": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "UiDirection"
+    },
+    "UiDriver": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "UiDriver"
+    },
+    "UiWindow": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "UiWindow"
+    },
+    "WindowMode": {
+      "source": "@ohos.UiTest.d.ts",
+      "bindings": "WindowMode"
+    }
+  }
+}

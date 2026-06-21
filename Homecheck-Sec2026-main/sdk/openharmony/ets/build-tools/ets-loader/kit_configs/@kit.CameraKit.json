@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "camera": {
+      "source": "@ohos.multimedia.camera.d.ts",
+      "bindings": "default"
+    },
+    "cameraPicker": {
+      "source": "@ohos.multimedia.cameraPicker.d.ts",
+      "bindings": "default"
+    }
+  }
+}

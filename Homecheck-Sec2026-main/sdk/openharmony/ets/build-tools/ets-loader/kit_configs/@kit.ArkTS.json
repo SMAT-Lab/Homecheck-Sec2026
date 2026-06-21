@@ -1,0 +1,168 @@
+{
+  "symbols": {
+    "buffer": {
+      "source": "@ohos.buffer.d.ts",
+      "bindings": "default"
+    },
+    "convertxml": {
+      "source": "@ohos.convertxml.d.ts",
+      "bindings": "default"
+    },
+    "process": {
+      "source": "@ohos.process.d.ts",
+      "bindings": "default"
+    },
+    "taskpool": {
+      "source": "@ohos.taskpool.d.ts",
+      "bindings": "default"
+    },
+    "uri": {
+      "source": "@ohos.uri.d.ts",
+      "bindings": "default"
+    },
+    "url": {
+      "source": "@ohos.url.d.ts",
+      "bindings": "default"
+    },
+    "ArrayList": {
+      "source": "@ohos.util.ArrayList.d.ts",
+      "bindings": "default"
+    },
+    "util": {
+      "source": "@ohos.util.d.ts",
+      "bindings": "default"
+    },
+    "Deque": {
+      "source": "@ohos.util.Deque.d.ts",
+      "bindings": "default"
+    },
+    "HashMap": {
+      "source": "@ohos.util.HashMap.d.ts",
+      "bindings": "default"
+    },
+    "HashSet": {
+      "source": "@ohos.util.HashSet.d.ts",
+      "bindings": "default"
+    },
+    "LightWeightMap": {
+      "source": "@ohos.util.LightWeightMap.d.ts",
+      "bindings": "default"
+    },
+    "LightWeightSet": {
+      "source": "@ohos.util.LightWeightSet.d.ts",
+      "bindings": "default"
+    },
+    "LinkedList": {
+      "source": "@ohos.util.LinkedList.d.ts",
+      "bindings": "default"
+    },
+    "List": {
+      "source": "@ohos.util.List.d.ts",
+      "bindings": "default"
+    },
+    "PlainArray": {
+      "source": "@ohos.util.PlainArray.d.ts",
+      "bindings": "default"
+    },
+    "Queue": {
+      "source": "@ohos.util.Queue.d.ts",
+      "bindings": "default"
+    },
+    "Stack": {
+      "source": "@ohos.util.Stack.d.ts",
+      "bindings": "default"
+    },
+    "TreeMap": {
+      "source": "@ohos.util.TreeMap.d.ts",
+      "bindings": "default"
+    },
+    "TreeSet": {
+      "source": "@ohos.util.TreeSet.d.ts",
+      "bindings": "default"
+    },
+    "Vector": {
+      "source": "@ohos.util.Vector.d.ts",
+      "bindings": "default"
+    },
+    "worker": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "default"
+    },
+    "DedicatedWorkerGlobalScope": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "DedicatedWorkerGlobalScope"
+    },
+    "ErrorEvent": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "ErrorEvent"
+    },
+    "Event": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "Event"
+    },
+    "EventListener": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "EventListener"
+    },
+    "EventTarget": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "EventTarget"
+    },
+    "MessageEvent": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "MessageEvent"
+    },
+    "MessageEvents": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "MessageEvents"
+    },
+    "PostMessageOptions": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "PostMessageOptions"
+    },
+    "ThreadWorkerGlobalScope": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "ThreadWorkerGlobalScope"
+    },
+    "WorkerEventListener": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "WorkerEventListener"
+    },
+    "WorkerEventTarget": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "WorkerEventTarget"
+    },
+    "WorkerOptions": {
+      "source": "@ohos.worker.d.ts",
+      "bindings": "WorkerOptions"
+    },
+    "xml": {
+      "source": "@ohos.xml.d.ts",
+      "bindings": "default"
+    },
+    "JSON": {
+      "source": "@ohos.util.json.d.ts",
+      "bindings": "default"
+    },
+    "lang": {
+      "source": "@arkts.lang.d.ets",
+      "bindings": "default"
+    },
+    "ArkTSUtils": {
+      "source": "@arkts.utils.d.ets",
+      "bindings": "default"
+    },
+    "collections": {
+      "source": "@arkts.collections.d.ets",
+      "bindings": "default"
+    },
+    "stream": {
+      "source": "@ohos.util.stream.d.ts",
+      "bindings": "default"
+    },
+    "Decimal": {
+      "source": "@arkts.math.Decimal.d.ets",
+      "bindings": "default"
+    }
+  }
+}

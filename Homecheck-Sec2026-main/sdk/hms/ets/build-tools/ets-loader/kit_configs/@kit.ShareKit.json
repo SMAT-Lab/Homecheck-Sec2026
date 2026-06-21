@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "systemShare": {
+      "source": "@hms.collaboration.systemShare",
+      "bindings": "default"
+    },
+    "harmonyShare": {
+      "source": "@hms.collaboration.harmonyShare",
+      "bindings": "default"
+    }
+  }
+}

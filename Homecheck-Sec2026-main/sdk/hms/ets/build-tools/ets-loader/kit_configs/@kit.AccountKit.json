@@ -1,0 +1,40 @@
+{
+  "symbols": {
+    "authentication": {
+      "source": "@hms.core.authentication",
+      "bindings": "default"
+    },
+    "extendService": {
+      "source": "@hms.core.account.extendservice",
+      "bindings": "default"
+    },
+    "LoginPanel": {
+      "source": "@hms.core.account.LoginComponent",
+      "bindings": "LoginPanel"
+    },
+    "LoginWithHuaweiIDButton": {
+      "source": "@hms.core.account.LoginComponent",
+      "bindings": "LoginWithHuaweiIDButton"
+    },
+    "loginComponentManager": {
+      "source": "@hms.core.account.LoginComponent",
+      "bindings": "loginComponentManager"
+    },
+    "realName": {
+      "source": "@hms.core.account.realname",
+      "bindings": "default"
+    },
+    "shippingAddress": {
+      "source": "@hms.core.account.shippingAddress",
+      "bindings": "default"
+    },
+    "minorsProtection": {
+      "source": "@hms.core.account.minorsProtection",
+      "bindings": "default"
+    },
+    "invoiceAssistant": {
+      "source": "@hms.core.account.invoiceAssistant",
+      "bindings": "default"
+    }
+  }
+}

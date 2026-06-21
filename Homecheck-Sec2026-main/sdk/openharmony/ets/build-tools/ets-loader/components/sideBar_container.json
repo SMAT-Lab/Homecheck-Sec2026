@@ -1,0 +1,6 @@
+{
+    "name": "SideBarContainer",
+    "attrs": [
+       "showSideBar", "controlButton", "showControlButton", "onChange", "sideBarWidth", "minSideBarWidth", "maxSideBarWidth", "autoHide", "sideBarPosition", "minContentWidth"
+    ]
+  }

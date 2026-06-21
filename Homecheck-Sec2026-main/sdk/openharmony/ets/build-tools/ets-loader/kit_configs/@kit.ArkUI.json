@@ -1,0 +1,1372 @@
+{
+  "symbols": {
+    "Animator": {
+      "source": "@ohos.animator.d.ts",
+      "bindings": "default"
+    },
+    "AnimatorOptions": {
+      "source": "@ohos.animator.d.ts",
+      "bindings": "AnimatorOptions"
+    },
+    "AnimatorResult": {
+      "source": "@ohos.animator.d.ts",
+      "bindings": "AnimatorResult"
+    },
+    "AtomicServiceNavigation": {
+      "source": "@ohos.atomicservice.AtomicServiceNavigation.d.ets",
+      "bindings": "AtomicServiceNavigation"
+    },
+    "NavDestinationBuilder": {
+      "source": "@ohos.atomicservice.AtomicServiceNavigation.d.ets",
+      "bindings": "NavDestinationBuilder"
+    },
+    "Chip": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "Chip"
+    },
+    "ChipOptions": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "ChipOptions"
+    },
+    "ChipSize": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "ChipSize"
+    },
+    "IconCommonOptions": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "IconCommonOptions"
+    },
+    "LabelMarginOptions": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "LabelMarginOptions"
+    },
+    "LabelOptions": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "LabelOptions"
+    },
+    "PrefixIconOptions": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "PrefixIconOptions"
+    },
+    "SuffixIconOptions": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "SuffixIconOptions"
+    },
+    "ChipSymbolGlyphOptions": {
+      "source": "@ohos.arkui.advanced.Chip.d.ets",
+      "bindings": "ChipSymbolGlyphOptions"
+    },
+    "NavPushPathHelper": {
+      "source": "@ohos.atomicservice.NavPushPathHelper.d.ets",
+      "bindings": "NavPushPathHelper"
+    },
+    "IconOptions": {
+      "source": "@ohos.arkui.advanced.ChipGroup.d.ets",
+      "bindings": "IconOptions"
+    },
+    "ChipItemLabelOptions": {
+      "source": "@ohos.arkui.advanced.ChipGroup.d.ets",
+      "bindings": "LabelOptions"
+    },
+    "ChipGroupItemOptions": {
+      "source": "@ohos.arkui.advanced.ChipGroup.d.ets",
+      "bindings": "ChipGroupItemOptions"
+    },
+    "ChipItemStyle": {
+      "source": "@ohos.arkui.advanced.ChipGroup.d.ets",
+      "bindings": "ChipItemStyle"
+    },
+    "ChipGroupSpaceOptions": {
+      "source": "@ohos.arkui.advanced.ChipGroup.d.ets",
+      "bindings": "ChipGroupSpaceOptions"
+    },
+    "IconItemOptions": {
+      "source": "@ohos.arkui.advanced.ChipGroup.d.ets",
+      "bindings": "IconItemOptions"
+    },
+    "IconGroupSuffix": {
+      "source": "@ohos.arkui.advanced.ChipGroup.d.ets",
+      "bindings": "IconGroupSuffix"
+    },
+    "ChipGroup": {
+      "source": "@ohos.arkui.advanced.ChipGroup.d.ets",
+      "bindings": "ChipGroup"
+    },
+    "ComposeListItem": {
+      "source": "@ohos.arkui.advanced.ComposeListItem.d.ets",
+      "bindings": "ComposeListItem"
+    },
+    "ContentItem": {
+      "source": "@ohos.arkui.advanced.ComposeListItem.d.ets",
+      "bindings": "ContentItem"
+    },
+    "IconType": {
+      "source": "@ohos.arkui.advanced.ComposeListItem.d.ets",
+      "bindings": "IconType"
+    },
+    "OperateButton": {
+      "source": "@ohos.arkui.advanced.ComposeListItem.d.ets",
+      "bindings": "OperateButton"
+    },
+    "OperateCheck": {
+      "source": "@ohos.arkui.advanced.ComposeListItem.d.ets",
+      "bindings": "OperateCheck"
+    },
+    "OperateIcon": {
+      "source": "@ohos.arkui.advanced.ComposeListItem.d.ets",
+      "bindings": "OperateIcon"
+    },
+    "OperateItem": {
+      "source": "@ohos.arkui.advanced.ComposeListItem.d.ets",
+      "bindings": "OperateItem"
+    },
+    "ComposeTitleBar": {
+      "source": "@ohos.arkui.advanced.ComposeTitleBar.d.ets",
+      "bindings": "ComposeTitleBar"
+    },
+    "ComposeTitleBarMenuItem": {
+      "source": "@ohos.arkui.advanced.ComposeTitleBar.d.ets",
+      "bindings": "ComposeTitleBarMenuItem"
+    },
+    "CounterComponent": {
+      "source": "@ohos.arkui.advanced.Counter.d.ets",
+      "bindings": "CounterComponent"
+    },
+    "CounterOptions": {
+      "source": "@ohos.arkui.advanced.Counter.d.ets",
+      "bindings": "CounterOptions"
+    },
+    "CounterType": {
+      "source": "@ohos.arkui.advanced.Counter.d.ets",
+      "bindings": "CounterType"
+    },
+    "DateData": {
+      "source": "@ohos.arkui.advanced.Counter.d.ets",
+      "bindings": "DateData"
+    },
+    "AlertDialog": {
+      "source": "@ohos.arkui.advanced.Dialog.d.ets",
+      "bindings": "AlertDialog"
+    },
+    "ButtonOptions": {
+      "source": "@ohos.arkui.advanced.Dialog.d.ets",
+      "bindings": "ButtonOptions"
+    },
+    "ConfirmDialog": {
+      "source": "@ohos.arkui.advanced.Dialog.d.ets",
+      "bindings": "ConfirmDialog"
+    },
+    "LoadingDialog": {
+      "source": "@ohos.arkui.advanced.Dialog.d.ets",
+      "bindings": "LoadingDialog"
+    },
+    "SelectDialog": {
+      "source": "@ohos.arkui.advanced.Dialog.d.ets",
+      "bindings": "SelectDialog"
+    },
+    "TipsDialog": {
+      "source": "@ohos.arkui.advanced.Dialog.d.ets",
+      "bindings": "TipsDialog"
+    },
+    "CustomContentDialog": {
+      "source": "@ohos.arkui.advanced.Dialog.d.ets",
+      "bindings": "CustomContentDialog"
+    },
+    "EditableLeftIconType": {
+      "source": "@ohos.arkui.advanced.EditableTitleBar.d.ets",
+      "bindings": "EditableLeftIconType"
+    },
+    "EditableTitleBar": {
+      "source": "@ohos.arkui.advanced.EditableTitleBar.d.ets",
+      "bindings": "EditableTitleBar"
+    },
+    "EditableTitleBarMenuItem": {
+      "source": "@ohos.arkui.advanced.EditableTitleBar.d.ets",
+      "bindings": "EditableTitleBarMenuItem"
+    },
+    "EditableTitleBarItem": {
+      "source": "@ohos.arkui.advanced.EditableTitleBar.d.ets",
+      "bindings": "EditableTitleBarItem"
+    },
+    "EditableTitleBarOptions": {
+      "source": "@ohos.arkui.advanced.EditableTitleBar.d.ets",
+      "bindings": "EditableTitleBarOptions"
+    },
+    "MarginType": {
+      "source": "@ohos.arkui.advanced.ExceptionPrompt.d.ets",
+      "bindings": "MarginType"
+    },
+    "PromptOptions": {
+      "source": "@ohos.arkui.advanced.ExceptionPrompt.d.ets",
+      "bindings": "PromptOptions"
+    },
+    "ExceptionPrompt": {
+      "source": "@ohos.arkui.advanced.ExceptionPrompt.d.ets",
+      "bindings": "ExceptionPrompt"
+    },
+    "Filter": {
+      "source": "@ohos.arkui.advanced.Filter.d.ets",
+      "bindings": "Filter"
+    },
+    "FilterParams": {
+      "source": "@ohos.arkui.advanced.Filter.d.ets",
+      "bindings": "FilterParams"
+    },
+    "FilterResult": {
+      "source": "@ohos.arkui.advanced.Filter.d.ets",
+      "bindings": "FilterResult"
+    },
+    "FilterType": {
+      "source": "@ohos.arkui.advanced.Filter.d.ets",
+      "bindings": "FilterType"
+    },
+    "AddFormMenuItem": {
+      "source": "@ohos.arkui.advanced.FormMenu.d.ets",
+      "bindings": "AddFormMenuItem"
+    },
+    "FormMenuItemStyle": {
+      "source": "@ohos.arkui.advanced.FormMenu.d.ets",
+      "bindings": "FormMenuItemStyle"
+    },
+    "AddFormOptions": {
+      "source": "@ohos.arkui.advanced.FormMenu.d.ets",
+      "bindings": "AddFormOptions"
+    },
+    "GridObjectSortComponentType": {
+      "source": "@ohos.arkui.advanced.GridObjectSortComponent.d.ets",
+      "bindings": "GridObjectSortComponentType"
+    },
+    "GridObjectSortComponentItem": {
+      "source": "@ohos.arkui.advanced.GridObjectSortComponent.d.ets",
+      "bindings": "GridObjectSortComponentItem"
+    },
+    "GridObjectSortComponentOptions": {
+      "source": "@ohos.arkui.advanced.GridObjectSortComponent.d.ets",
+      "bindings": "GridObjectSortComponentOptions"
+    },
+    "GridObjectSortComponent": {
+      "source": "@ohos.arkui.advanced.GridObjectSortComponent.d.ets",
+      "bindings": "GridObjectSortComponent"
+    },
+    "Popup": {
+      "source": "@ohos.arkui.advanced.Popup.d.ets",
+      "bindings": "Popup"
+    },
+    "PopupButtonOptions": {
+      "source": "@ohos.arkui.advanced.Popup.d.ets",
+      "bindings": "PopupButtonOptions"
+    },
+    "PopupIconOptions": {
+      "source": "@ohos.arkui.advanced.Popup.d.ets",
+      "bindings": "PopupIconOptions"
+    },
+    "PopupOptions": {
+      "source": "@ohos.arkui.advanced.Popup.d.ets",
+      "bindings": "PopupOptions"
+    },
+    "PopupTextOptions": {
+      "source": "@ohos.arkui.advanced.Popup.d.ets",
+      "bindings": "PopupTextOptions"
+    },
+    "ProgressButton": {
+      "source": "@ohos.arkui.advanced.ProgressButton.d.ets",
+      "bindings": "ProgressButton"
+    },
+    "SegmentButton": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButton"
+    },
+    "SegmentButtonOptions": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonOptions"
+    },
+    "SegmentButtonItemOptionsArray": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonItemOptionsArray"
+    },
+    "TabSegmentButtonOptions": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "TabSegmentButtonOptions"
+    },
+    "TabSegmentButtonConstructionOptions": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "TabSegmentButtonConstructionOptions"
+    },
+    "CapsuleSegmentButtonOptions": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "CapsuleSegmentButtonOptions"
+    },
+    "CapsuleSegmentButtonConstructionOptions": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "CapsuleSegmentButtonConstructionOptions"
+    },
+    "SegmentButtonTextItem": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonTextItem"
+    },
+    "SegmentButtonIconItem": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonIconItem"
+    },
+    "SegmentButtonIconTextItem": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonIconTextItem"
+    },
+    "DimensionNoPercentage": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "DimensionNoPercentage"
+    },
+    "CommonSegmentButtonOptions": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "CommonSegmentButtonOptions"
+    },
+    "ItemRestriction": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "ItemRestriction"
+    },
+    "SegmentButtonItemTuple": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonItemTuple"
+    },
+    "SegmentButtonItemArray": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonItemArray"
+    },
+    "SegmentButtonItemOptionsConstructorOptions": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonItemOptionsConstructorOptions"
+    },
+    "SegmentButtonItemOptions": {
+      "source": "@ohos.arkui.advanced.SegmentButton.d.ets",
+      "bindings": "SegmentButtonItemOptions"
+    },
+    "EditorEventInfo": {
+      "source": "@ohos.arkui.advanced.SelectionMenu.d.ets",
+      "bindings": "EditorEventInfo"
+    },
+    "EditorMenuOptions": {
+      "source": "@ohos.arkui.advanced.SelectionMenu.d.ets",
+      "bindings": "EditorMenuOptions"
+    },
+    "ExpandedMenuOptions": {
+      "source": "@ohos.arkui.advanced.SelectionMenu.d.ets",
+      "bindings": "ExpandedMenuOptions"
+    },
+    "SelectionMenu": {
+      "source": "@ohos.arkui.advanced.SelectionMenu.d.ets",
+      "bindings": "SelectionMenu"
+    },
+    "SelectionMenuOptions": {
+      "source": "@ohos.arkui.advanced.SelectionMenu.d.ets",
+      "bindings": "SelectionMenuOptions"
+    },
+    "SelectTitleBar": {
+      "source": "@ohos.arkui.advanced.SelectTitleBar.d.ets",
+      "bindings": "SelectTitleBar"
+    },
+    "SelectTitleBarMenuItem": {
+      "source": "@ohos.arkui.advanced.SelectTitleBar.d.ets",
+      "bindings": "SelectTitleBarMenuItem"
+    },
+    "SplitLayout": {
+      "source": "@ohos.arkui.advanced.SplitLayout.d.ets",
+      "bindings": "SplitLayout"
+    },
+    "OperationOption": {
+      "source": "@ohos.arkui.advanced.SubHeader.d.ets",
+      "bindings": "OperationOption"
+    },
+    "OperationType": {
+      "source": "@ohos.arkui.advanced.SubHeader.d.ets",
+      "bindings": "OperationType"
+    },
+    "SelectOptions": {
+      "source": "@ohos.arkui.advanced.SubHeader.d.ets",
+      "bindings": "SelectOptions"
+    },
+    "SubHeader": {
+      "source": "@ohos.arkui.advanced.SubHeader.d.ets",
+      "bindings": "SubHeader"
+    },
+    "SymbolOptions": {
+      "source": "@ohos.arkui.advanced.SubHeader.d.ets",
+      "bindings": "SymbolOptions"
+    },
+    "SwipeRefresher": {
+      "source": "@ohos.arkui.advanced.SwipeRefresher.d.ets",
+      "bindings": "SwipeRefresher"
+    },
+    "TabTitleBar": {
+      "source": "@ohos.arkui.advanced.TabTitleBar.d.ets",
+      "bindings": "TabTitleBar"
+    },
+    "TabTitleBarMenuItem": {
+      "source": "@ohos.arkui.advanced.TabTitleBar.d.ets",
+      "bindings": "TabTitleBarMenuItem"
+    },
+    "TabTitleBarTabItem": {
+      "source": "@ohos.arkui.advanced.TabTitleBar.d.ets",
+      "bindings": "TabTitleBarTabItem"
+    },
+    "ItemState": {
+      "source": "@ohos.arkui.advanced.ToolBar.d.ets",
+      "bindings": "ItemState"
+    },
+    "ToolBar": {
+      "source": "@ohos.arkui.advanced.ToolBar.d.ets",
+      "bindings": "ToolBar"
+    },
+    "ToolBarOption": {
+      "source": "@ohos.arkui.advanced.ToolBar.d.ets",
+      "bindings": "ToolBarOption"
+    },
+    "ToolBarOptions": {
+      "source": "@ohos.arkui.advanced.ToolBar.d.ets",
+      "bindings": "ToolBarOptions"
+    },
+    "ToolBarModifier": {
+      "source": "@ohos.arkui.advanced.ToolBar.d.ets",
+      "bindings": "ToolBarModifier"
+    },
+    "CallbackParam": {
+      "source": "@ohos.arkui.advanced.TreeView.d.ets",
+      "bindings": "CallbackParam"
+    },
+    "NodeParam": {
+      "source": "@ohos.arkui.advanced.TreeView.d.ets",
+      "bindings": "NodeParam"
+    },
+    "TreeController": {
+      "source": "@ohos.arkui.advanced.TreeView.d.ets",
+      "bindings": "TreeController"
+    },
+    "TreeListenType": {
+      "source": "@ohos.arkui.advanced.TreeView.d.ets",
+      "bindings": "TreeListenType"
+    },
+    "TreeListener": {
+      "source": "@ohos.arkui.advanced.TreeView.d.ets",
+      "bindings": "TreeListener"
+    },
+    "TreeListenerManager": {
+      "source": "@ohos.arkui.advanced.TreeView.d.ets",
+      "bindings": "TreeListenerManager"
+    },
+    "TreeView": {
+      "source": "@ohos.arkui.advanced.TreeView.d.ets",
+      "bindings": "TreeView"
+    },
+    "InterstitialDialogAction": {
+      "source": "@ohos.atomicservice.InterstitialDialogAction.d.ets",
+      "bindings": "InterstitialDialogAction"
+    },
+    "IconStyle": {
+      "source": "@ohos.atomicservice.InterstitialDialogAction.d.ets",
+      "bindings": "IconStyle"
+    },
+    "TitlePosition": {
+      "source": "@ohos.atomicservice.InterstitialDialogAction.d.ets",
+      "bindings": "TitlePosition"
+    },
+    "BottomOffset": {
+      "source": "@ohos.atomicservice.InterstitialDialogAction.d.ets",
+      "bindings": "BottomOffset"
+    },
+    "componentSnapshot": {
+      "source": "@ohos.arkui.componentSnapshot.d.ts",
+      "bindings": "default"
+    },
+    "componentUtils": {
+      "source": "@ohos.arkui.componentUtils.d.ts",
+      "bindings": "default"
+    },
+    "dragController": {
+      "source": "@ohos.arkui.dragController.d.ts",
+      "bindings": "default"
+    },
+    "DrawableDescriptor": {
+      "source": "@ohos.arkui.drawableDescriptor.d.ts",
+      "bindings": "DrawableDescriptor"
+    },
+    "LayeredDrawableDescriptor": {
+      "source": "@ohos.arkui.drawableDescriptor.d.ts",
+      "bindings": "LayeredDrawableDescriptor"
+    },
+    "PixelMapDrawableDescriptor": {
+      "source": "@ohos.arkui.drawableDescriptor.d.ts",
+      "bindings": "PixelMapDrawableDescriptor"
+    },
+    "AnimationOptions": {
+      "source": "@ohos.arkui.drawableDescriptor.d.ts",
+      "bindings": "AnimationOptions"
+    },
+    "AnimatedDrawableDescriptor": {
+      "source": "@ohos.arkui.drawableDescriptor.d.ts",
+      "bindings": "AnimatedDrawableDescriptor"
+    },
+    "inspector": {
+      "source": "@ohos.arkui.inspector.d.ts",
+      "bindings": "default"
+    },
+    "NodeRenderType": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "NodeRenderType"
+    },
+    "RenderOptions": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "RenderOptions"
+    },
+    "BuilderNode": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "BuilderNode"
+    },
+    "BuildOptions": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "BuildOptions"
+    },
+    "NodeController": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "NodeController"
+    },
+    "FrameNode": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "FrameNode"
+    },
+    "DrawContext": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "DrawContext"
+    },
+    "Size": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Size"
+    },
+    "Offset": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Offset"
+    },
+    "Position": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Position"
+    },
+    "Pivot": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Pivot"
+    },
+    "Scale": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Scale"
+    },
+    "Translation": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Translation"
+    },
+    "Matrix4": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Matrix4"
+    },
+    "Rotation": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Rotation"
+    },
+    "Frame": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Frame"
+    },
+    "RenderNode": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "RenderNode"
+    },
+    "XComponentNode": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "XComponentNode"
+    },
+    "LengthMetrics": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "LengthMetrics"
+    },
+    "ColorMetrics": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "ColorMetrics"
+    },
+    "LengthUnit": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "LengthUnit"
+    },
+    "LengthMetricsUnit": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "LengthMetricsUnit"
+    },
+    "LayoutConstraint": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "LayoutConstraint"
+    },
+    "ComponentContent": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "ComponentContent"
+    },
+    "NodeContent": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "NodeContent"
+    },
+    "Content": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Content"
+    },
+    "typeNode": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "typeNode"
+    },
+    "NodeAdapter": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "NodeAdapter"
+    },
+    "ShapeMask": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "ShapeMask"
+    },
+    "ShapeClip": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "ShapeClip"
+    },
+    "Rect": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "Rect"
+    },
+    "RoundRect": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "RoundRect"
+    },
+    "edgeColors": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "edgeColors"
+    },
+    "edgeWidths": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "edgeWidths"
+    },
+    "borderStyles": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "borderStyles"
+    },
+    "borderRadiuses": {
+      "source": "@ohos.arkui.node.d.ts",
+      "bindings": "borderRadiuses"
+    },
+    "uiObserver": {
+      "source": "@ohos.arkui.observer.d.ts",
+      "bindings": "default"
+    },
+    "AppStorageV2": {
+      "source": "@ohos.arkui.StateManagement.d.ts",
+      "bindings": "AppStorageV2"
+    },
+    "PersistenceV2": {
+      "source": "@ohos.arkui.StateManagement.d.ts",
+      "bindings": "PersistenceV2"
+    },
+    "Type": {
+      "source": "@ohos.arkui.StateManagement.d.ts",
+      "bindings": "Type"
+    },
+    "UIUtils": {
+      "source": "@ohos.arkui.StateManagement.d.ts",
+      "bindings": "UIUtils"
+    },
+    "RectShape": {
+      "source": "@ohos.arkui.shape.d.ts",
+      "bindings": "RectShape"
+    },
+    "CircleShape": {
+      "source": "@ohos.arkui.shape.d.ts",
+      "bindings": "CircleShape"
+    },
+    "EllipseShape": {
+      "source": "@ohos.arkui.shape.d.ts",
+      "bindings": "EllipseShape"
+    },
+    "PathShape": {
+      "source": "@ohos.arkui.shape.d.ts",
+      "bindings": "PathShape"
+    },
+    "AtomicServiceBar": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "AtomicServiceBar"
+    },
+    "ComponentUtils": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "ComponentUtils"
+    },
+    "ContextMenuController": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "ContextMenuController"
+    },
+    "CursorController": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "CursorController"
+    },
+    "DragController": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "DragController"
+    },
+    "Font": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "Font"
+    },
+    "KeyboardAvoidMode": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "KeyboardAvoidMode"
+    },
+    "MediaQuery": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "MediaQuery"
+    },
+    "OverlayManager": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "OverlayManager"
+    },
+    "PromptAction": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "PromptAction"
+    },
+    "Router": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "Router"
+    },
+    "UIContext": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "UIContext"
+    },
+    "UIInspector": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "UIInspector"
+    },
+    "UIObserver": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "UIObserver"
+    },
+    "PageInfo": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "PageInfo"
+    },
+    "SwiperDynamicSyncScene": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "SwiperDynamicSyncScene"
+    },
+    "SwiperDynamicSyncSceneType": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "SwiperDynamicSyncSceneType"
+    },
+    "MeasureUtils": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "MeasureUtils"
+    },
+    "FrameCallback": {
+      "source": "@ohos.arkui.UIContext.d.ts",
+      "bindings": "FrameCallback"
+    },
+    "curves": {
+      "source": "@ohos.curves.d.ts",
+      "bindings": "default"
+    },
+    "AtomicServiceWeb": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "AtomicServiceWeb"
+    },
+    "OnMessageEvent": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "OnMessageEvent"
+    },
+    "OnErrorReceiveEvent": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "OnErrorReceiveEvent"
+    },
+    "OnHttpErrorReceiveEvent": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "OnHttpErrorReceiveEvent"
+    },
+    "OnPageBeginEvent": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "OnPageBeginEvent"
+    },
+    "OnPageEndEvent": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "OnPageEndEvent"
+    },
+    "AtomicServiceWebController": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "AtomicServiceWebController"
+    },
+    "OnLoadInterceptEvent": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "OnLoadInterceptEvent"
+    },
+    "OnProgressChangeEvent": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "OnProgressChangeEvent"
+    },
+    "OnLoadInterceptCallback": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "OnLoadInterceptCallback"
+    },
+    "WebHeader": {
+      "source": "@ohos.atomicservice.AtomicServiceWeb.d.ets",
+      "bindings": "WebHeader"
+    },
+    "display": {
+      "source": "@ohos.display.d.ts",
+      "bindings": "default"
+    },
+    "font": {
+      "source": "@ohos.font.d.ts",
+      "bindings": "default"
+    },
+    "matrix4": {
+      "source": "@ohos.matrix4.d.ts",
+      "bindings": "default"
+    },
+    "MeasureText": {
+      "source": "@ohos.measure.d.ts",
+      "bindings": "default"
+    },
+    "MeasureOptions": {
+      "source": "@ohos.measure.d.ts",
+      "bindings": "MeasureOptions"
+    },
+    "mediaquery": {
+      "source": "@ohos.mediaquery.d.ts",
+      "bindings": "default"
+    },
+    "PiPWindow": {
+      "source": "@ohos.PiPWindow.d.ts",
+      "bindings": "default"
+    },
+    "pluginComponentManager": {
+      "source": "@ohos.pluginComponent.d.ts",
+      "bindings": "default"
+    },
+    "PluginComponentTemplate": {
+      "source": "@ohos.pluginComponent.d.ts",
+      "bindings": "PluginComponentTemplate"
+    },
+    "prompt": {
+      "source": "@ohos.prompt.d.ts",
+      "bindings": "default"
+    },
+    "promptAction": {
+      "source": "@ohos.promptAction.d.ts",
+      "bindings": "default"
+    },
+    "router": {
+      "source": "@ohos.router.d.ts",
+      "bindings": "default"
+    },
+    "screenshot": {
+      "source": "@ohos.screenshot.d.ts",
+      "bindings": "default"
+    },
+    "window": {
+      "source": "@ohos.window.d.ts",
+      "bindings": "default"
+    },
+    "App": {
+      "source": "@system.app.d.ts",
+      "bindings": "default"
+    },
+    "AppResponse": {
+      "source": "@system.app.d.ts",
+      "bindings": "AppResponse"
+    },
+    "RequestFullWindowOptions": {
+      "source": "@system.app.d.ts",
+      "bindings": "RequestFullWindowOptions"
+    },
+    "ScreenOnVisibleOptions": {
+      "source": "@system.app.d.ts",
+      "bindings": "ScreenOnVisibleOptions"
+    },
+    "Configuration": {
+      "source": "@system.configuration.d.ts",
+      "bindings": "default"
+    },
+    "LocaleResponse": {
+      "source": "@system.configuration.d.ts",
+      "bindings": "LocaleResponse"
+    },
+    "SystemMediaQuery": {
+      "source": "@system.mediaquery.d.ts",
+      "bindings": "default"
+    },
+    "MediaQueryEvent": {
+      "source": "@system.mediaquery.d.ts",
+      "bindings": "MediaQueryEvent"
+    },
+    "MediaQueryList": {
+      "source": "@system.mediaquery.d.ts",
+      "bindings": "MediaQueryList"
+    },
+    "Prompt": {
+      "source": "@system.prompt.d.ts",
+      "bindings": "default"
+    },
+    "Button": {
+      "source": "@system.prompt.d.ts",
+      "bindings": "Button"
+    },
+    "ShowActionMenuOptions": {
+      "source": "@system.prompt.d.ts",
+      "bindings": "ShowActionMenuOptions"
+    },
+    "ShowDialogOptions": {
+      "source": "@system.prompt.d.ts",
+      "bindings": "ShowDialogOptions"
+    },
+    "ShowDialogSuccessResponse": {
+      "source": "@system.prompt.d.ts",
+      "bindings": "ShowDialogSuccessResponse"
+    },
+    "ShowToastOptions": {
+      "source": "@system.prompt.d.ts",
+      "bindings": "ShowToastOptions"
+    },
+    "SystemRouter": {
+      "source": "@system.router.d.ts",
+      "bindings": "default"
+    },
+    "BackRouterOptions": {
+      "source": "@system.router.d.ts",
+      "bindings": "BackRouterOptions"
+    },
+    "DisableAlertBeforeBackPageOptions": {
+      "source": "@system.router.d.ts",
+      "bindings": "DisableAlertBeforeBackPageOptions"
+    },
+    "EnableAlertBeforeBackPageOptions": {
+      "source": "@system.router.d.ts",
+      "bindings": "EnableAlertBeforeBackPageOptions"
+    },
+    "RouterOptions": {
+      "source": "@system.router.d.ts",
+      "bindings": "RouterOptions"
+    },
+    "RouterState": {
+      "source": "@system.router.d.ts",
+      "bindings": "RouterState"
+    },
+    "Colors": {
+      "source": "@ohos.arkui.theme.d.ts",
+      "bindings": "Colors"
+    },
+    "CustomColors": {
+      "source": "@ohos.arkui.theme.d.ts",
+      "bindings": "CustomColors"
+    },
+    "Theme": {
+      "source": "@ohos.arkui.theme.d.ts",
+      "bindings": "Theme"
+    },
+    "ThemeControl": {
+      "source": "@ohos.arkui.theme.d.ts",
+      "bindings": "ThemeControl"
+    },
+    "CustomTheme": {
+      "source": "@ohos.arkui.theme.d.ts",
+      "bindings": "CustomTheme"
+    },
+    "ExtraRegionPosition": {
+      "source": "@ohos.arkui.advanced.FoldSplitContainer.d.ets",
+      "bindings": "ExtraRegionPosition"
+    },
+    "ExpandedRegionLayoutOptions": {
+      "source": "@ohos.arkui.advanced.FoldSplitContainer.d.ets",
+      "bindings": "ExpandedRegionLayoutOptions"
+    },
+    "HoverModeRegionLayoutOptions": {
+      "source": "@ohos.arkui.advanced.FoldSplitContainer.d.ets",
+      "bindings": "HoverModeRegionLayoutOptions"
+    },
+    "FoldedRegionLayoutOptions": {
+      "source": "@ohos.arkui.advanced.FoldSplitContainer.d.ets",
+      "bindings": "FoldedRegionLayoutOptions"
+    },
+    "PresetSplitRatio": {
+      "source": "@ohos.arkui.advanced.FoldSplitContainer.d.ets",
+      "bindings": "PresetSplitRatio"
+    },
+    "FoldSplitContainer": {
+      "source": "@ohos.arkui.advanced.FoldSplitContainer.d.ets",
+      "bindings": "FoldSplitContainer"
+    },
+    "HoverModeStatus": {
+      "source": "@ohos.arkui.advanced.FoldSplitContainer.d.ets",
+      "bindings": "HoverModeStatus"
+    },
+    "OnHoverStatusChangeHandler": {
+      "source": "@ohos.arkui.advanced.FoldSplitContainer.d.ets",
+      "bindings": "OnHoverStatusChangeHandler"
+    },
+    "uiExtension": {
+      "source": "@ohos.arkui.uiExtension.d.ts",
+      "bindings": "default"
+    },
+    "FullScreenLaunchComponent": {
+      "source": "@ohos.arkui.advanced.FullScreenLaunchComponent.d.ets",
+      "bindings": "FullScreenLaunchComponent"
+    },
+    "AtomicServiceTabs": {
+      "source": "@ohos.atomicservice.AtomicServiceTabs.d.ets",
+      "bindings": "AtomicServiceTabs"
+    },
+    "TabBarOptions": {
+      "source": "@ohos.atomicservice.AtomicServiceTabs.d.ets",
+      "bindings": "TabBarOptions"
+    },
+    "TabBarPosition": {
+      "source": "@ohos.atomicservice.AtomicServiceTabs.d.ets",
+      "bindings": "TabBarPosition"
+    },
+    "TabContentBuilder": {
+      "source": "@ohos.atomicservice.AtomicServiceTabs.d.ets",
+      "bindings": "TabContentBuilder"
+    },
+    "OnContentWillChangeCallback": {
+      "source": "@ohos.atomicservice.AtomicServiceTabs.d.ets",
+      "bindings": "OnContentWillChangeCallback"
+    },
+    "CommonModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "CommonModifier"
+    },
+    "ColumnModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ColumnModifier"
+    },
+    "ColumnSplitModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ColumnSplitModifier"
+    },
+    "RowModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "RowModifier"
+    },
+    "RowSplitModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "RowSplitModifier"
+    },
+    "SideBarContainerModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "SideBarContainerModifier"
+    },
+    "BlankModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "BlankModifier"
+    },
+    "DividerModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "DividerModifier"
+    },
+    "GridColModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "GridColModifier"
+    },
+    "GridRowModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "GridRowModifier"
+    },
+    "NavDestinationModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "NavDestinationModifier"
+    },
+    "NavigatorModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "NavigatorModifier"
+    },
+    "StackModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "StackModifier"
+    },
+    "NavigationModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "NavigationModifier"
+    },
+    "NavRouterModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "NavRouterModifier"
+    },
+    "StepperItemModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "StepperItemModifier"
+    },
+    "TabsModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "TabsModifier"
+    },
+    "GridModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "GridModifier"
+    },
+    "GridItemModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "GridItemModifier"
+    },
+    "ListModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ListModifier"
+    },
+    "ListItemModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ListItemModifier"
+    },
+    "ListItemGroupModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ListItemGroupModifier"
+    },
+    "ScrollModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ScrollModifier"
+    },
+    "SwiperModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "SwiperModifier"
+    },
+    "WaterFlowModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "WaterFlowModifier"
+    },
+    "ButtonModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ButtonModifier"
+    },
+    "CounterModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "CounterModifier"
+    },
+    "TextPickerModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "TextPickerModifier"
+    },
+    "TimePickerModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "TimePickerModifier"
+    },
+    "ToggleModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ToggleModifier"
+    },
+    "CalendarPickerModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "CalendarPickerModifier"
+    },
+    "CheckboxModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "CheckboxModifier"
+    },
+    "CheckboxGroupModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "CheckboxGroupModifier"
+    },
+    "DatePickerModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "DatePickerModifier"
+    },
+    "RadioModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "RadioModifier"
+    },
+    "RatingModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "RatingModifier"
+    },
+    "SelectModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "SelectModifier"
+    },
+    "SliderModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "SliderModifier"
+    },
+    "PatternLockModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "PatternLockModifier"
+    },
+    "SpanModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "SpanModifier"
+    },
+    "RichEditorModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "RichEditorModifier"
+    },
+    "RefreshModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "RefreshModifier"
+    },
+    "SearchModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "SearchModifier"
+    },
+    "TextAreaModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "TextAreaModifier"
+    },
+    "TextModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "TextModifier"
+    },
+    "TextInputModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "TextInputModifier"
+    },
+    "ImageSpanModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ImageSpanModifier"
+    },
+    "ImageAnimatorModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ImageAnimatorModifier"
+    },
+    "ImageModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ImageModifier"
+    },
+    "VideoModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "VideoModifier"
+    },
+    "DataPanelModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "DataPanelModifier"
+    },
+    "GaugeModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "GaugeModifier"
+    },
+    "LoadingProgressModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "LoadingProgressModifier"
+    },
+    "MarqueeModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "MarqueeModifier"
+    },
+    "ProgressModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ProgressModifier"
+    },
+    "QRCodeModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "QRCodeModifier"
+    },
+    "TextClockModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "TextClockModifier"
+    },
+    "TextTimerModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "TextTimerModifier"
+    },
+    "LineModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "LineModifier"
+    },
+    "PathModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "PathModifier"
+    },
+    "PolygonModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "PolygonModifier"
+    },
+    "PolylineModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "PolylineModifier"
+    },
+    "RectModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "RectModifier"
+    },
+    "ShapeModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ShapeModifier"
+    },
+    "AlphabetIndexerModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "AlphabetIndexerModifier"
+    },
+    "FormComponentModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "FormComponentModifier"
+    },
+    "HyperlinkModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "HyperlinkModifier"
+    },
+    "MenuModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "MenuModifier"
+    },
+    "MenuItemModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "MenuItemModifier"
+    },
+    "PanelModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "PanelModifier"
+    },
+    "SymbolGlyphModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "SymbolGlyphModifier"
+    },
+    "AttributeUpdater": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "AttributeUpdater"
+    },
+    "ContainerSpanModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ContainerSpanModifier"
+    },
+    "SymbolSpanModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "SymbolSpanModifier"
+    },
+    "ParticleModifier": {
+      "source": "@ohos.arkui.modifier.d.ts",
+      "bindings": "ParticleModifier"
+    },
+    "IDataSourcePrefetching": {
+      "source": "@ohos.arkui.Prefetcher.d.ts",
+      "bindings": "IDataSourcePrefetching"
+    },
+    "IPrefetcher": {
+      "source": "@ohos.arkui.Prefetcher.d.ts",
+      "bindings": "IPrefetcher"
+    },
+    "BasicPrefetcher": {
+      "source": "@ohos.arkui.Prefetcher.d.ts",
+      "bindings": "BasicPrefetcher"
+    },
+    "DownloadFileButton": {
+      "source": "@ohos.arkui.advanced.DownloadFileButton.d.ets",
+      "bindings": "DownloadFileButton"
+    },
+    "DownloadLayoutDirection": {
+      "source": "@ohos.arkui.advanced.DownloadFileButton.d.ets",
+      "bindings": "DownloadLayoutDirection"
+    },
+    "DownloadIconStyle": {
+      "source": "@ohos.arkui.advanced.DownloadFileButton.d.ets",
+      "bindings": "DownloadIconStyle"
+    },
+    "DownloadDescription": {
+      "source": "@ohos.arkui.advanced.DownloadFileButton.d.ets",
+      "bindings": "DownloadDescription"
+    },
+    "DownloadContentOptions": {
+      "source": "@ohos.arkui.advanced.DownloadFileButton.d.ets",
+      "bindings": "DownloadContentOptions"
+    },
+    "DownloadStyleOptions": {
+      "source": "@ohos.arkui.advanced.DownloadFileButton.d.ets",
+      "bindings": "DownloadStyleOptions"
+    }
+  }
+}

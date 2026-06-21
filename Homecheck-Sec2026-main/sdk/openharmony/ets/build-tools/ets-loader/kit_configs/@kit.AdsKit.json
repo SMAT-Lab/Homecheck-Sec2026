@@ -1,0 +1,24 @@
+{
+  "symbols": {
+    "AdComponent": {
+      "source": "@ohos.advertising.AdComponent.d.ets",
+      "bindings": "AdComponent"
+    },
+    "RespCallback": {
+      "source": "@ohos.advertising.AdsServiceExtensionAbility.d.ts",
+      "bindings": "RespCallback"
+    },
+    "AutoAdComponent": {
+      "source": "@ohos.advertising.AutoAdComponent.d.ets",
+      "bindings": "AutoAdComponent"
+    },
+    "advertising": {
+      "source": "@ohos.advertising.d.ts",
+      "bindings": "default"
+    },
+    "identifier": {
+      "source": "@ohos.identifier.oaid.d.ts",
+      "bindings": "default"
+    }
+  }
+}

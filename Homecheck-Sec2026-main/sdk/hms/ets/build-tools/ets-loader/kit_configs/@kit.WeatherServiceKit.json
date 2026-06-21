@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "weatherService": {
+      "source": "@hms.core.weather",
+      "bindings": "default"
+    }
+  }
+}

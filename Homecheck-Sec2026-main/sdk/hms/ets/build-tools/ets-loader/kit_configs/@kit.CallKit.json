@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "voipCall": {
+      "source": "@hms.telephony.voipCall",
+      "bindings": "default"
+    }
+  }
+}

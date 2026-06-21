@@ -1,0 +1,96 @@
+{
+  "symbols": {
+    "photoAccessHelper": {
+      "source": "@ohos.file.photoAccessHelper.d.ts",
+      "bindings": "default"
+    },
+    "sendablePhotoAccessHelper": {
+      "source": "@ohos.file.sendablePhotoAccessHelper.d.ets",
+      "bindings": "default"
+    },
+    "MovingPhotoView": {
+      "source": "@ohos.multimedia.movingphotoview.d.ts",
+      "bindings": "MovingPhotoView"
+    },
+    "MovingPhotoViewController": {
+      "source": "@ohos.multimedia.movingphotoview.d.ts",
+      "bindings": "MovingPhotoViewController"
+    },
+    "MovingPhotoViewAttribute": {
+      "source": "@ohos.multimedia.movingphotoview.d.ts",
+      "bindings": "MovingPhotoViewAttribute"
+    },
+    "AlbumPickerComponent": {
+      "source": "@ohos.file.AlbumPickerComponent.d.ets",
+      "bindings": "AlbumPickerComponent"
+    },
+    "AlbumPickerOptions": {
+      "source": "@ohos.file.AlbumPickerComponent.d.ets",
+      "bindings": "AlbumPickerOptions"
+    },
+    "AlbumInfo": {
+      "source": "@ohos.file.AlbumPickerComponent.d.ets",
+      "bindings": "AlbumInfo"
+    },
+    "PhotoPickerComponent": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "PhotoPickerComponent"
+    },
+    "PickerController": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "PickerController"
+    },
+    "PickerOptions": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "PickerOptions"
+    },
+    "DataType": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "DataType"
+    },
+    "ItemInfo": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "ItemInfo"
+    },
+    "PhotoBrowserInfo": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "PhotoBrowserInfo"
+    },
+    "AnimatorParams": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "AnimatorParams"
+    },
+    "MaxSelected": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "MaxSelected"
+    },
+    "ItemType": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "ItemType"
+    },
+    "ClickType": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "ClickType"
+    },
+    "PickerOrientation": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "PickerOrientation"
+    },
+    "SelectMode": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "SelectMode"
+    },
+    "PickerColorMode": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "PickerColorMode"
+    },
+    "ReminderMode": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "ReminderMode"
+    },
+    "MaxCountType": {
+      "source": "@ohos.file.PhotoPickerComponent.d.ets",
+      "bindings": "MaxCountType"
+    }
+  }
+}

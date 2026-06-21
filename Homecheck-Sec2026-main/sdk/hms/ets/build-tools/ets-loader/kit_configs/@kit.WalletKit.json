@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "walletPass": {
+      "source": "@hms.core.payment.walletPass",
+      "bindings": "default"
+    },
+    "walletTransitCard": {
+      "source": "@hms.core.payment.walletTransitCard",
+      "bindings": "default"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "iap": {
+      "source": "@hms.core.iap",
+      "bindings": "default"
+    }
+  }
+}

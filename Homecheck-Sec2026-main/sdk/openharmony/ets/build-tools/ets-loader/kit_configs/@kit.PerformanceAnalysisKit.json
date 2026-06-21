@@ -1,0 +1,36 @@
+{
+  "symbols": {
+    "FaultLogger": {
+      "source": "@ohos.faultLogger.d.ts",
+      "bindings": "default"
+    },
+    "hiAppEvent": {
+      "source": "@ohos.hiviewdfx.hiAppEvent.d.ts",
+      "bindings": "default"
+    },
+    "hichecker": {
+      "source": "@ohos.hichecker.d.ts",
+      "bindings": "default"
+    },
+    "hidebug": {
+      "source": "@ohos.hidebug.d.ts",
+      "bindings": "default"
+    },
+    "hilog": {
+      "source": "@ohos.hilog.d.ts",
+      "bindings": "default"
+    },
+    "hiTraceChain": {
+      "source": "@ohos.hiTraceChain.d.ts",
+      "bindings": "default"
+    },
+    "hiTraceMeter": {
+      "source": "@ohos.hiTraceMeter.d.ts",
+      "bindings": "default"
+    },
+    "jsLeakWatcher": {
+      "source": "@ohos.hiviewdfx.jsLeakWatcher.d.ts",
+      "bindings": "default"
+    }
+  }
+}

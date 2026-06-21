@@ -1,0 +1,4 @@
+{
+  "name": "NavDestination",
+  "attrs": ["title", "hideTitleBar"]
+}

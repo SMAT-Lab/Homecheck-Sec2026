@@ -1,0 +1,54 @@
+import { ArkFile } from 'arkanalyzer';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Rule, MatcherCallback } from '../../Index';
+import { Defects, IssueReport } from '../../model/Defects';
+interface MessageInfo {
+    unsafeOptionalChain: string;
+    unsafeArithmetic: string;
+}
+export declare class NoUnsafeOptionalChainingCheck implements BaseChecker {
+    rule: Rule;
+    private defaultOptions;
+    defects: Defects[];
+    issues: IssueReport[];
+    metaData: BaseMetaData;
+    messages: MessageInfo;
+    private fileMatcher;
+    private filePath;
+    private message;
+    registerMatchers(): MatcherCallback[];
+    check: (target: ArkFile) => void;
+    private visitNode;
+    private getMessage;
+    private isUnsafeOptionalChain;
+    private checkBinaryExpressionUnsafe;
+    private checkQuestionQuestionToken;
+    private checkParentChainForUnsafeUsage;
+    private checkNewAndBinaryExpression;
+    private isInDestructuring;
+    private checkArrayLiteralExpression;
+    private checkObjectLiteralExpression;
+    private isUnsafeInOrInstanceOfOperation;
+    private isUnsafeConditionalExpression;
+    private isUnsafeExpressionParent;
+    private isUnsafeGeneralCase;
+    private checkExpressionChainForUnsafeUsage;
+    private isDirectUnsafeUsage;
+    private isUnsafeHeritageExpression;
+    private isUnsafeAwaitExpression;
+    private checkBinaryExpressionUnsafeForAwait;
+    private checkBinaryExpression;
+    private isInArithmeticAssignment;
+    private isInvolvedInArithmeticOperation;
+    private isArithmeticUnaryOperator;
+    private isArithmeticBinaryOperator;
+    private isArithmeticCompoundAssignment;
+    private isDescendantOf;
+    private isLogicalOperator;
+    private isUnsafeArithmeticOperation;
+    private checkParentUnsafeUsage;
+    private isProtectedByNullishCoalescing;
+    private isUnsafeRelationalOperation;
+    private addIssueReport;
+}
+export {};

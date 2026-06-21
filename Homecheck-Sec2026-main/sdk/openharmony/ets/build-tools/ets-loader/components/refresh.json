@@ -1,0 +1,7 @@
+{
+  "name": "Refresh",
+  "single": true,
+  "attrs": [
+    "refreshing", "offset", "friction", "onStateChange", "onRefreshing"
+  ]
+}

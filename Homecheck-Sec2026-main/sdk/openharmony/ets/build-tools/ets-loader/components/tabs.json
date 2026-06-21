@@ -1,0 +1,10 @@
+{
+  "name": "Tabs",
+  "children": ["TabContent"],
+  "attrs": [
+    "vertical", "scrollable", "barMode", "barWidth", "barHeight", "animationDuration",
+    "onChange", "onAnimationStart", "onAnimationEnd", "onGestureSwipe",
+    "barPosition", "barOverlap", "barBackgroundColor", "customContentTransition", "barBackgroundBlurStyle",
+    "onContentWillChange"
+  ]
+}

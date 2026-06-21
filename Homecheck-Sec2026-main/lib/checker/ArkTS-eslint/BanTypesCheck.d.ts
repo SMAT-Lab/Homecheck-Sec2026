@@ -1,0 +1,38 @@
+import { ArkFile } from 'arkanalyzer';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Rule, MatcherCallback } from '../../Index';
+import { Defects, IssueReport } from '../../model/Defects';
+export declare class BanTypesCheck implements BaseChecker {
+    private defaultOptions;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private bannedTypes;
+    private canFixTypes;
+    private filePath;
+    metaData: BaseMetaData;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (target: ArkFile) => void;
+    private getDefaultOptions;
+    private checkTypeReferenceNode;
+    private checkTypeLiteralNode;
+    private checkTupleTypeNode;
+    private checkInterfaceDeclaration;
+    private checkInterfaceMembers;
+    private checkClassDeclaration;
+    private checkClassMembers;
+    private checkMemberType;
+    private checkMethodParameters;
+    private isHeritageTypeToCheck;
+    private visitNode;
+    private shouldSkipInheritanceCheck;
+    private checkQualifiedTypeName;
+    private checkTypeString;
+    private checkBannedType;
+    private commonCheck;
+    private createFix;
+    private addIssueReport;
+    removeKeySpaces(str: string): string;
+    private getCustomMessageByType;
+}

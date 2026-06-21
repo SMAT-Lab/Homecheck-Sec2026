@@ -1,0 +1,32 @@
+{
+  "symbols": {
+    "productViewManager": {
+      "source": "@hms.core.appgalleryservice.productViewManager",
+      "bindings": "default"
+    },
+    "moduleInstallManager": {
+      "source": "@hms.core.appgalleryservice.moduleInstallManager",
+      "bindings": "default"
+    },
+    "updateManager": {
+      "source": "@hms.core.appgalleryservice.updateManager",
+      "bindings": "default"
+    },
+    "attributionManager": {
+      "source": "@hms.core.appgalleryservice.attributionManager",
+      "bindings": "default"
+    },
+    "attributionTestManager": {
+      "source": "@hms.core.appgalleryservice.attributionTestManager",
+      "bindings": "default"
+    },
+    "privacyManager": {
+      "source": "@hms.core.appgalleryservice.privacyManager",
+      "bindings": "default"
+    },
+    "sceneManager": {
+      "source": "@hms.bundle.sceneManager",
+      "bindings": "default"
+    }
+  }
+}

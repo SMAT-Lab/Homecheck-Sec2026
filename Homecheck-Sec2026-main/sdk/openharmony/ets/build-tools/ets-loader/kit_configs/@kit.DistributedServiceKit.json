@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "distributedDeviceManager": {
+      "source": "@ohos.distributedDeviceManager.d.ts",
+      "bindings": "default"
+    },
+    "deviceManager": {
+      "source": "@ohos.distributedHardware.deviceManager.d.ts",
+      "bindings": "default"
+    }
+  }
+}

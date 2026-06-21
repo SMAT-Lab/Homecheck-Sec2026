@@ -1,0 +1,9 @@
+{
+  "name": "Text",
+  "children": ["Span", "ImageSpan", "ContainerSpan", "SymbolSpan"],
+  "attrs": [
+    "fontColor", "fontSize", "fontStyle", "fontWeight", "textAlign", "lineHeight", "textOverflow",
+    "maxLines", "decoration", "letterSpacing", "textCase", "baselineOffset", "minFontSize",
+    "maxFontSize", "copyOption", "textIndent","font"
+  ]
+}

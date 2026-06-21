@@ -1,0 +1,1 @@
+"use strict";var _utils=require("./utils"),_main=require("../main.js");module.exports=function(e){return(0,_utils.generateSourceFilesInHar)(this.resourcePath,e,".js",_main.projectConfig),e};

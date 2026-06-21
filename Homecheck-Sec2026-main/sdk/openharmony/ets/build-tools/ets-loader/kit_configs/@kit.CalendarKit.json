@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "calendarManager": {
+      "source": "@ohos.calendarManager.d.ts",
+      "bindings": "default"
+    }
+  }
+}

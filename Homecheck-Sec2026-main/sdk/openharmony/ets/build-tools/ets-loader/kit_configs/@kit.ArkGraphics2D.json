@@ -1,0 +1,40 @@
+{
+  "symbols": {
+    "effectKit": {
+      "source": "@ohos.effectKit.d.ts",
+      "bindings": "default"
+    },
+    "colorSpaceManager": {
+      "source": "@ohos.graphics.colorSpaceManager.d.ts",
+      "bindings": "default"
+    },
+    "sendableColorSpaceManager": {
+      "source": "@ohos.graphics.sendableColorSpaceManager.d.ets",
+      "bindings": "default"
+    },
+    "hdrCapability": {
+      "source": "@ohos.graphics.hdrCapability.d.ts",
+      "bindings": "default"
+    },
+    "displaySync": {
+      "source": "@ohos.graphics.displaySync.d.ts",
+      "bindings": "default"
+    },
+    "common2D": {
+      "source": "@ohos.graphics.common2D.d.ts",
+      "bindings": "default"
+    },
+    "drawing": {
+      "source": "@ohos.graphics.drawing.d.ts",
+      "bindings": "default"
+    },
+    "text": {
+      "source": "@ohos.graphics.text.d.ts",
+      "bindings": "default"
+    },
+    "uiEffect": {
+      "source": "@ohos.graphics.uiEffect.d.ts",
+      "bindings": "default"
+    }
+  }
+}

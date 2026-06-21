@@ -1,0 +1,35 @@
+import { ArkFile, ts } from 'arkanalyzer/lib';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { MatcherCallback } from '../../matcher/Matchers';
+import { Defects, IssueReport } from '../../model/Defects';
+import { Rule } from '../../model/Rule';
+export declare class TypedefCheck implements BaseChecker {
+    readonly CONST_STR: string;
+    readonly CONST_LET: string;
+    readonly CONST_CONSTRUCTOR: string;
+    readonly CONST_EQUAL: string;
+    readonly CONST_ARROW: string;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    sourceFile: ts.SourceFile;
+    filePath: string;
+    optionList: string[];
+    metaData: BaseMetaData;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (target: ArkFile) => void;
+    private isBindingPattern;
+    private visitNode;
+    private typeAliasDeclarationNode;
+    private propertySignatureNode;
+    private propertyDeclarationNode;
+    private parameterNode;
+    private parameterNodeExecute;
+    private bindingPatternNode;
+    private variableDeclarationNode;
+    private variableDeclarationNode1;
+    private variableDeclarationNodeElse;
+    private addIssueReport;
+    getDefaultOption(): void;
+}

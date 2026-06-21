@@ -1,0 +1,24 @@
+{
+  "symbols": {
+    "scanCore": {
+      "source": "@hms.core.scan.scanCore",
+      "bindings": "default"
+    },
+    "scanBarcode": {
+      "source": "@hms.core.scan.scanBarcode",
+      "bindings": "default"
+    },
+    "customScan": {
+      "source": "@hms.core.scan.customScan",
+      "bindings": "default"
+    },
+    "detectBarcode": {
+      "source": "@hms.core.scan.detectBarcode",
+      "bindings": "default"
+    },
+    "generateBarcode": {
+      "source": "@hms.core.scan.generateBarcode",
+      "bindings": "default"
+    }
+  }
+}

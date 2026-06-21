@@ -1,0 +1,34 @@
+import { ArkFile } from 'arkanalyzer/lib';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { MatcherCallback } from '../../matcher/Matchers';
+import { Defects, IssueReport } from '../../model/Defects';
+import { Rule } from '../../model/Rule';
+export declare class DotNotationCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private issueMap;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (targetFile: ArkFile) => void;
+    private isKeyword;
+    private addIssueReport;
+    private ruleFix;
+    private reportSortedIssues;
+    private getFileExtension;
+    private addFixByDot;
+    private addFix;
+    private collectMatchingNodes;
+    private collectNodes;
+    private getLineBreak;
+    private checkClassforMethod;
+    private infunCallElementAccessExpression;
+    private checkLocal;
+    private processAssignmentStatements;
+    private addCollectaboutClass;
+    private addCollectOther;
+    private exceRightOp;
+    private exceLeftOp;
+    private exceFunctionCall;
+}

@@ -1,0 +1,16 @@
+{
+  "symbols": {
+    "pdfService": {
+      "source": "@hms.officeservice.pdfservice",
+      "bindings": "default"
+    },
+    "pdfViewManager": {
+      "source": "@hms.officeservice.PdfView",
+      "bindings": "pdfViewManager"
+    },
+    "PdfView": {
+      "source": "@hms.officeservice.PdfView",
+      "bindings": "PdfView"
+    }
+  }
+}

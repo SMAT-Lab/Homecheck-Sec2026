@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "paymentService": {
+      "source": "@hms.core.payment.paymentService",
+      "bindings": "default"
+    },
+    "ecnyPaymentService": {
+      "source": "@hms.core.payment.ecnyPaymentService",
+      "bindings": "default"
+    }
+  }
+}

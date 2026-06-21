@@ -1,0 +1,52 @@
+{
+  "symbols": {
+    "AAID": {
+      "source": "@hms.core.AAID",
+      "bindings": "default"
+    },
+    "pushCommon": {
+      "source": "@hms.core.push.pushCommon",
+      "bindings": "default"
+    },
+    "PushExtensionAbility": {
+      "source": "@hms.core.push.PushExtensionAbility",
+      "bindings": "default"
+    },
+    "PushExtensionContext": {
+      "source": "@hms.core.push.PushExtensionContext",
+      "bindings": "default"
+    },
+    "pushService": {
+      "source": "@hms.core.push.pushService",
+      "bindings": "default"
+    },
+    "RemoteLocationExtensionAbility": {
+      "source": "@hms.core.push.RemoteLocationExtensionAbility",
+      "bindings": "default"
+    },
+    "RemoteLocationExtensionContext": {
+      "source": "@hms.core.push.RemoteLocationExtensionContext",
+      "bindings": "default"
+    },
+    "RemoteNotificationExtensionAbility": {
+      "source": "@hms.core.push.RemoteNotificationExtensionAbility",
+      "bindings": "default"
+    },
+    "RemoteNotificationExtensionContext": {
+      "source": "@hms.core.push.RemoteNotificationExtensionContext",
+      "bindings": "default"
+    },
+    "serviceNotification": {
+      "source": "@hms.core.push.serviceNotification",
+      "bindings": "default"
+    },
+    "VoIPExtensionAbility": {
+      "source": "@hms.core.push.VoIPExtensionAbility",
+      "bindings": "default"
+    },
+    "VoIPExtensionContext": {
+      "source": "@hms.core.push.VoIPExtensionContext",
+      "bindings": "default"
+    }
+  }
+}

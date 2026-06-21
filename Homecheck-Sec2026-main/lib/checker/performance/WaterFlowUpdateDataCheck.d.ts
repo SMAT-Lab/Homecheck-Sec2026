@@ -1,0 +1,33 @@
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { ArkFile } from 'arkanalyzer';
+import { Defects, MatcherCallback, Rule } from '../../Index';
+import { IssueReport } from '../../model/Defects';
+export declare class WaterFlowUpdateDataCheck implements BaseChecker {
+    private readonly WATERFLOW;
+    private readonly LAZY_FOREACH;
+    private readonly CREATE;
+    private readonly FLOW_ITEM;
+    private readonly ON_APPEAR;
+    private warnInfo;
+    private usedComponentMap;
+    private viewTreeTool;
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (arkFile: ArkFile) => void;
+    private classProcess;
+    private traverseViewTree;
+    private pushIssueReport;
+    private isExistIssueReport;
+    private traverseViewTreeByChildren;
+    private findSymbolInAppear;
+    private findSymbolInStmt;
+    private findSymbolInArgs;
+    private findSymbolInMethod;
+    private getInvokeMethod;
+    private getWarnInfoByAttributes;
+    private getWarnInfo;
+}

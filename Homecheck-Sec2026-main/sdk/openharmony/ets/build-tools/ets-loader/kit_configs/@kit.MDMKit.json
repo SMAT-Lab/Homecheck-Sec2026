@@ -1,0 +1,72 @@
+{
+  "symbols": {
+    "accountManager": {
+      "source": "@ohos.enterprise.accountManager.d.ts",
+      "bindings": "default"
+    },
+    "adminManager": {
+      "source": "@ohos.enterprise.adminManager.d.ts",
+      "bindings": "default"
+    },
+    "applicationManager": {
+      "source": "@ohos.enterprise.applicationManager.d.ts",
+      "bindings": "default"
+    },
+    "bluetoothManager": {
+      "source": "@ohos.enterprise.bluetoothManager.d.ts",
+      "bindings": "default"
+    },
+    "browser": {
+      "source": "@ohos.enterprise.browser.d.ts",
+      "bindings": "default"
+    },
+    "bundleManager": {
+      "source": "@ohos.enterprise.bundleManager.d.ts",
+      "bindings": "default"
+    },
+    "deviceControl": {
+      "source": "@ohos.enterprise.deviceControl.d.ts",
+      "bindings": "default"
+    },
+    "deviceInfo": {
+      "source": "@ohos.enterprise.deviceInfo.d.ts",
+      "bindings": "default"
+    },
+    "deviceSettings": {
+      "source": "@ohos.enterprise.deviceSettings.d.ts",
+      "bindings": "default"
+    },
+    "EnterpriseAdminExtensionAbility": {
+      "source": "@ohos.enterprise.EnterpriseAdminExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "locationManager": {
+      "source": "@ohos.enterprise.locationManager.d.ts",
+      "bindings": "default"
+    },
+    "networkManager": {
+      "source": "@ohos.enterprise.networkManager.d.ts",
+      "bindings": "default"
+    },
+    "restrictions": {
+      "source": "@ohos.enterprise.restrictions.d.ts",
+      "bindings": "default"
+    },
+    "securityManager": {
+      "source": "@ohos.enterprise.securityManager.d.ts",
+      "bindings": "default"
+    },
+    "systemManager": {
+      "source": "@ohos.enterprise.systemManager.d.ts",
+      "bindings": "default"
+    },
+    "usbManager": {
+      "source": "@ohos.enterprise.usbManager.d.ts",
+      "bindings": "default"
+    },
+    "wifiManager": {
+      "source": "@ohos.enterprise.wifiManager.d.ts",
+      "bindings": "default"
+    }
+  }
+}

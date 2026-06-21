@@ -1,0 +1,32 @@
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { ArkAssignStmt, ArkField, Local, Scene } from 'arkanalyzer';
+import { MatcherCallback, Rule } from '../../Index';
+import { IssueReport } from '../../model/Defects';
+export declare class AudioInterruptCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    issues: IssueReport[];
+    registerMatchers(): MatcherCallback[];
+    check: (scene: Scene) => void;
+    private processClass;
+    private processArkMethod;
+    private isAwaitReturnStmt;
+    private getPromiseThenCallbackMethod;
+    private processCallbackMethod;
+    private parseRealAttachInstance;
+    private isArgTypeMultimedia;
+    private getInvokeCallbackMethod;
+    private parseInvokerAudioInterruptStmt;
+    private getFieldByBase;
+    private commonInvokerMatch;
+    private isInvokerAndStmtMatch;
+    isDesignatedField(leftOp: Local, declaringStmt: ArkAssignStmt, fieldInfo: ArkField | null, localInfo: Local | null): boolean;
+    private getReturnOp;
+    private isResolveAssignToVariable;
+    private isInstanceAssignToVariable;
+    private typeProcess;
+    private isMultimediaCreateStmt;
+    private isAudioInterruptStmt;
+    private isAudioInterruptSignature;
+    private reportIssue;
+}

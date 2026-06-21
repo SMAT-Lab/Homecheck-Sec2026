@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "mindSporeLite": {
+      "source": "@ohos.ai.mindSporeLite.d.ts",
+      "bindings": "default"
+    }
+  }
+}

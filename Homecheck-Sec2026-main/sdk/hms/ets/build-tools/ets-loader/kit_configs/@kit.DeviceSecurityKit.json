@@ -1,0 +1,24 @@
+{
+  "symbols": {
+    "safetyDetect": {
+      "source": "@hms.security.safetyDetect",
+      "bindings": "default"
+    },
+    "deviceCertificate": {
+      "source": "@hms.security.deviceCertificate",
+      "bindings": "default"
+    },
+    "securityAudit": {
+      "source": "@hms.security.securityAudit",
+      "bindings": "default"
+    },
+    "trustedAppService": {
+      "source": "@hms.security.trustedAppService",
+      "bindings": "default"
+    },
+    "businessRiskIntelligentDetection": {
+      "source": "@hms.security.businessRiskIntelligentDetection",
+      "bindings": "default"
+    }
+  }
+}

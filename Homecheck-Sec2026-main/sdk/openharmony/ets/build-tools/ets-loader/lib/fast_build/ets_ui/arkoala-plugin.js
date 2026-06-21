@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=arkoalaProgramTransform;var _ark_define=require("../ark_compiler/common/ark_define");function arkoalaProgramTransform(r,e,a,o){return console.warn(_ark_define.yellow+"WARN: Arkoala plugin is missing in the current SDK. Source transformation will not be performed."+_ark_define.reset),r}

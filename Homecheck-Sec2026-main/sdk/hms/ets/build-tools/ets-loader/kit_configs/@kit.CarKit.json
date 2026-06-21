@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "navigationInfoMgr": {
+      "source": "@hms.carService.navigationInfoMgr",
+      "bindings": "default"
+    },
+    "smartMobilityCommon": {
+      "source": "@hms.carService.smartMobilityCommon",
+      "bindings": "default"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "contact": {
+      "source": "@ohos.contact.d.ts",
+      "bindings": "default"
+    }
+  }
+}

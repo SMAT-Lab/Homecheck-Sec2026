@@ -1,0 +1,16 @@
+{
+  "symbols": {
+    "liveViewManager": {
+      "source": "@hms.core.liveview.liveViewManager",
+      "bindings": "default"
+    },
+    "LiveViewLockScreenExtensionAbility": {
+      "source": "@hms.core.liveview.LiveViewLockScreenExtensionAbility",
+      "bindings": "default"
+    },
+    "LiveViewLockScreenExtensionContext": {
+      "source": "@hms.core.liveview.LiveViewLockScreenExtensionContext",
+      "bindings": "default"
+    }
+  }
+}

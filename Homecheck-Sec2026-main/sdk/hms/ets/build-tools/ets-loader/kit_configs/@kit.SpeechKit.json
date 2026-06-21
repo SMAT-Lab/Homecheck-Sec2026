@@ -1,0 +1,48 @@
+{
+  "symbols": {
+    "TextReader": {
+      "source": "@hms.ai.textReader",
+      "bindings": "default"
+    },
+    "WindowManager": {
+      "source": "@hms.ai.textReader",
+      "bindings": "WindowManager"
+    },
+    "TextReaderIcon": {
+      "source": "@hms.ai.textReader",
+      "bindings": "TextReaderIcon"
+    },
+    "ReadStateCode": {
+      "source": "@hms.ai.textReader",
+      "bindings": "ReadStateCode"
+    },
+    "AICaptionController": {
+      "source": "@hms.ai.AICaption",
+      "bindings": "AICaptionController"
+    },
+    "AudioInfo": {
+      "source": "@hms.ai.AICaption",
+      "bindings": "AudioInfo"
+    },
+    "AudioData": {
+      "source": "@hms.ai.AICaption",
+      "bindings": "AudioData"
+    },
+    "AICaptionSettingType": {
+      "source": "@hms.ai.AICaption",
+      "bindings": "AICaptionSettingType"
+    },
+    "AlignmentMode": {
+      "source": "@hms.ai.AICaption",
+      "bindings": "AlignmentMode"
+    },
+    "AICaptionOptions": {
+      "source": "@hms.ai.AICaption",
+      "bindings": "AICaptionOptions"
+    },
+    "AICaptionComponent": {
+      "source": "@hms.ai.AICaption",
+      "bindings": "AICaptionComponent"
+    }
+  }
+}

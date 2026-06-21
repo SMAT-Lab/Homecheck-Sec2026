@@ -1,0 +1,16 @@
+{
+  "symbols": {
+    "fido": {
+      "source": "@hms.security.fido",
+      "bindings": "default"
+    },
+    "ifaa": {
+      "source": "@hms.security.ifaa",
+      "bindings": "default"
+    },
+    "soter": {
+      "source": "@hms.security.soter",
+      "bindings": "default"
+    }
+  }
+}

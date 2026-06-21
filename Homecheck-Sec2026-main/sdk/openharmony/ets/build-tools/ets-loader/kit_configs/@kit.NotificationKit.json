@@ -1,0 +1,20 @@
+{
+  "symbols": {
+    "notificationManager": {
+      "source": "@ohos.notificationManager.d.ts",
+      "bindings": "default"
+    },
+    "Notification": {
+      "source": "@system.notification.d.ts",
+      "bindings": "default"
+    },
+    "ActionResult": {
+      "source": "@system.notification.d.ts",
+      "bindings": "ActionResult"
+    },
+    "ShowNotificationOptions": {
+      "source": "@system.notification.d.ts",
+      "bindings": "ShowNotificationOptions"
+    }
+  }
+}

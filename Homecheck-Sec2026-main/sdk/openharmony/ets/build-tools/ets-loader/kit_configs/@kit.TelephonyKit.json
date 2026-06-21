@@ -1,0 +1,32 @@
+{
+  "symbols": {
+    "data": {
+      "source": "@ohos.telephony.data.d.ts",
+      "bindings": "default"
+    },
+    "observer": {
+      "source": "@ohos.telephony.observer.d.ts",
+      "bindings": "default"
+    },
+    "radio": {
+      "source": "@ohos.telephony.radio.d.ts",
+      "bindings": "default"
+    },
+    "sim": {
+      "source": "@ohos.telephony.sim.d.ts",
+      "bindings": "default"
+    },
+    "sms": {
+      "source": "@ohos.telephony.sms.d.ts",
+      "bindings": "default"
+    },
+    "vcard": {
+      "source": "@ohos.telephony.vcard.d.ts",
+      "bindings": "default"
+    },
+    "call": {
+      "source": "@ohos.telephony.call.d.ts",
+      "bindings": "default"
+    }
+  }
+}

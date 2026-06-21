@@ -1,0 +1,284 @@
+{
+  "symbols": {
+    "ability": {
+      "source": "@ohos.ability.ability.d.ts",
+      "bindings": "default"
+    },
+    "ErrorCode": {
+      "source": "@ohos.ability.errorCode.d.ts",
+      "bindings": "ErrorCode"
+    },
+    "featureAbility": {
+      "source": "@ohos.ability.featureAbility.d.ts",
+      "bindings": "default"
+    },
+    "particleAbility": {
+      "source": "@ohos.ability.particleAbility.d.ts",
+      "bindings": "default"
+    },
+    "abilityAccessCtrl": {
+      "source": "@ohos.abilityAccessCtrl.d.ts",
+      "bindings": "default"
+    },
+    "Context": {
+      "source": "@ohos.abilityAccessCtrl.d.ts",
+      "bindings": "Context"
+    },
+    "PermissionRequestResult": {
+      "source": "@ohos.abilityAccessCtrl.d.ts",
+      "bindings": "PermissionRequestResult"
+    },
+    "Permissions": {
+      "source": "@ohos.abilityAccessCtrl.d.ts",
+      "bindings": "Permissions"
+    },
+    "Ability": {
+      "source": "@ohos.app.ability.Ability.d.ts",
+      "bindings": "default"
+    },
+    "AbilityConstant": {
+      "source": "@ohos.app.ability.AbilityConstant.d.ts",
+      "bindings": "default"
+    },
+    "AbilityLifecycleCallback": {
+      "source": "@ohos.app.ability.AbilityLifecycleCallback.d.ts",
+      "bindings": "default"
+    },
+    "AbilityStage": {
+      "source": "@ohos.app.ability.AbilityStage.d.ts",
+      "bindings": "default"
+    },
+    "ActionExtensionAbility": {
+      "source": "@ohos.app.ability.ActionExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "ApplicationStateChangeCallback": {
+      "source": "@ohos.app.ability.ApplicationStateChangeCallback.d.ts",
+      "bindings": "default"
+    },
+    "appManager": {
+      "source": "@ohos.app.ability.appManager.d.ts",
+      "bindings": "default"
+    },
+    "appRecovery": {
+      "source": "@ohos.app.ability.appRecovery.d.ts",
+      "bindings": "default"
+    },
+    "autoFillManager": {
+      "source": "@ohos.app.ability.autoFillManager.d.ts",
+      "bindings": "default"
+    },
+    "ChildProcess": {
+      "source": "@ohos.app.ability.ChildProcess.d.ts",
+      "bindings": "default"
+    },
+    "childProcessManager": {
+      "source": "@ohos.app.ability.childProcessManager.d.ts",
+      "bindings": "default"
+    },
+    "ChildProcessArgs": {
+      "source": "@ohos.app.ability.ChildProcessArgs.d.ts",
+      "bindings": "ChildProcessArgs"
+    },
+    "ChildProcessOptions": {
+      "source": "@ohos.app.ability.ChildProcessOptions.d.ts",
+      "bindings": "ChildProcessOptions"
+    },
+    "common": {
+      "source": "@ohos.app.ability.common.d.ts",
+      "bindings": "default"
+    },
+    "Configuration": {
+      "source": "@ohos.app.ability.Configuration.d.ts",
+      "bindings": "Configuration"
+    },
+    "ConfigurationConstant": {
+      "source": "@ohos.app.ability.ConfigurationConstant.d.ts",
+      "bindings": "default"
+    },
+    "contextConstant": {
+      "source": "@ohos.app.ability.contextConstant.d.ts",
+      "bindings": "default"
+    },
+    "dataUriUtils": {
+      "source": "@ohos.app.ability.dataUriUtils.d.ts",
+      "bindings": "default"
+    },
+    "dialogRequest": {
+      "source": "@ohos.app.ability.dialogRequest.d.ts",
+      "bindings": "default"
+    },
+    "EnvironmentCallback": {
+      "source": "@ohos.app.ability.EnvironmentCallback.d.ts",
+      "bindings": "default"
+    },
+    "errorManager": {
+      "source": "@ohos.app.ability.errorManager.d.ts",
+      "bindings": "default"
+    },
+    "ExtensionAbility": {
+      "source": "@ohos.app.ability.ExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "insightIntent": {
+      "source": "@ohos.app.ability.insightIntent.d.ts",
+      "bindings": "default"
+    },
+    "InsightIntentContext": {
+      "source": "@ohos.app.ability.InsightIntentContext.d.ts",
+      "bindings": "default"
+    },
+    "InsightIntentExecutor": {
+      "source": "@ohos.app.ability.InsightIntentExecutor.d.ts",
+      "bindings": "default"
+    },
+    "OpenLinkOptions": {
+      "source": "@ohos.app.ability.OpenLinkOptions.d.ts",
+      "bindings": "default"
+    },
+    "ShareExtensionAbility": {
+      "source": "@ohos.app.ability.ShareExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "StartOptions": {
+      "source": "@ohos.app.ability.StartOptions.d.ts",
+      "bindings": "default"
+    },
+    "UIAbility": {
+      "source": "@ohos.app.ability.UIAbility.d.ts",
+      "bindings": "default"
+    },
+    "Callee": {
+      "source": "@ohos.app.ability.UIAbility.d.ts",
+      "bindings": "Callee"
+    },
+    "CalleeCallback": {
+      "source": "@ohos.app.ability.UIAbility.d.ts",
+      "bindings": "CalleeCallback"
+    },
+    "Caller": {
+      "source": "@ohos.app.ability.UIAbility.d.ts",
+      "bindings": "Caller"
+    },
+    "OnReleaseCallback": {
+      "source": "@ohos.app.ability.UIAbility.d.ts",
+      "bindings": "OnReleaseCallback"
+    },
+    "OnRemoteStateChangeCallback": {
+      "source": "@ohos.app.ability.UIAbility.d.ts",
+      "bindings": "OnRemoteStateChangeCallback"
+    },
+    "UIExtensionAbility": {
+      "source": "@ohos.app.ability.UIExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "UIExtensionContentSession": {
+      "source": "@ohos.app.ability.UIExtensionContentSession.d.ts",
+      "bindings": "default"
+    },
+    "Want": {
+      "source": "@ohos.app.ability.Want.d.ts",
+      "bindings": "default"
+    },
+    "wantConstant": {
+      "source": "@ohos.app.ability.wantConstant.d.ts",
+      "bindings": "default"
+    },
+    "wantAgent": {
+      "source": "@ohos.app.ability.wantAgent.d.ts",
+      "bindings": "default"
+    },
+    "WantAgent": {
+      "source": "@ohos.app.ability.wantAgent.d.ts",
+      "bindings": "WantAgent"
+    },
+    "uriPermissionManager": {
+      "source": "@ohos.application.uriPermissionManager.d.ts",
+      "bindings": "default"
+    },
+    "bundleManager": {
+      "source": "@ohos.bundle.bundleManager.d.ts",
+      "bindings": "default"
+    },
+    "bundle": {
+      "source": "@ohos.bundle.d.ts",
+      "bindings": "default"
+    },
+    "defaultAppManager": {
+      "source": "@ohos.bundle.defaultAppManager.d.ts",
+      "bindings": "default"
+    },
+    "overlay": {
+      "source": "@ohos.bundle.overlay.d.ts",
+      "bindings": "default"
+    },
+    "continuationManager": {
+      "source": "@ohos.continuation.continuationManager.d.ts",
+      "bindings": "default"
+    },
+    "Package": {
+      "source": "@system.package.d.ts",
+      "bindings": "default"
+    },
+    "CheckPackageHasInstalledOptions": {
+      "source": "@system.package.d.ts",
+      "bindings": "CheckPackageHasInstalledOptions"
+    },
+    "CheckPackageHasInstalledResponse": {
+      "source": "@system.package.d.ts",
+      "bindings": "CheckPackageHasInstalledResponse"
+    },
+    "privacyManager": {
+      "source": "@ohos.privacyManager.d.ts",
+      "bindings": "default"
+    },
+    "EmbeddedUIExtensionAbility": {
+      "source": "@ohos.app.ability.EmbeddedUIExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "StartupConfig": {
+      "source": "@ohos.app.appstartup.StartupConfig.d.ts",
+      "bindings": "default"
+    },
+    "StartupConfigEntry": {
+      "source": "@ohos.app.appstartup.StartupConfigEntry.d.ts",
+      "bindings": "default"
+    },
+    "StartupListener": {
+      "source": "@ohos.app.appstartup.StartupListener.d.ts",
+      "bindings": "default"
+    },
+    "StartupTask": {
+      "source": "@ohos.app.appstartup.StartupTask.d.ets",
+      "bindings": "default"
+    },
+    "startupManager": {
+      "source": "@ohos.app.appstartup.startupManager.d.ts",
+      "bindings": "default"
+    },
+    "sendableContextManager": {
+      "source": "@ohos.app.ability.sendableContextManager.d.ets",
+      "bindings": "default"
+    },
+    "screenLockFileManager": {
+      "source": "@ohos.ability.screenLockFileManager.d.ts",
+      "bindings": "default"
+    },
+    "AtomicServiceOptions": {
+      "source": "@ohos.app.ability.AtomicServiceOptions.d.ts",
+      "bindings": "default"
+    },
+    "EmbeddableUIAbility": {
+      "source": "@ohos.app.ability.EmbeddableUIAbility.d.ts",
+      "bindings": "default"
+    },
+    "PhotoEditorExtensionAbility": {
+      "source": "@ohos.app.ability.PhotoEditorExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "application": {
+      "source": "@ohos.app.ability.application.d.ts",
+      "bindings": "default"
+    }
+  }
+}

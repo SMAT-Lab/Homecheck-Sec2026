@@ -1,0 +1,31 @@
+import { ArkFile, ts } from "arkanalyzer";
+import { BaseChecker, BaseMetaData, MatcherCallback } from '../../Index';
+import { Defects } from "../../model/Defects";
+import { Rule } from "../../model/Rule";
+import { IssueReport } from '../../model/Defects';
+export declare class LinesBetweenClassMembersCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    private issueMap;
+    private exceptAfterOverload;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (arkFile: ArkFile) => void;
+    loopNode(targetFile: ArkFile, sourceFile: ts.SourceFile, aNode: ts.Node): void;
+    private checkClassMembers;
+    private shouldSkipSemicolonToProperty;
+    private checkPropertySpacing;
+    private handlePropertyDeclarationWithSpacing;
+    private hasAbstractModifier;
+    private handleExceptAfterOverload;
+    private handleNoExceptAfterOverload;
+    private checkMembersCondition;
+    private getStartLine;
+    private getEndLine;
+    private isOverload;
+    private getPositionInfo;
+    private addIssueReport;
+    private reportSortedIssues;
+}

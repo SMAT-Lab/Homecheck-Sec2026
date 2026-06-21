@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "hdsDrawable": {
+      "source": "@hms.hds.hdsDrawable",
+      "bindings": "default"
+    }
+  }
+}

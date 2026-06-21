@@ -1,0 +1,38 @@
+import { ArkFile, ts } from 'arkanalyzer';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { MatcherCallback } from '../../Index';
+import { Rule } from '../../Index';
+import { IssueReport } from '../../model/Defects';
+export declare class ConsistentTypeImportsCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    rule: Rule;
+    issues: IssueReport[];
+    private issueMap;
+    private typeMessage;
+    private noTypeMessage;
+    private disallowTypeAnnotationsMessage;
+    private ruleOptions;
+    private usedNodeList;
+    private importTypeNodeList;
+    private fileMatcher;
+    registerMatchers(): MatcherCallback[];
+    check: (targetFile: ArkFile) => void;
+    loopNode(targetFile: ArkFile, sourceFile: ts.SourceFileLike, aNode: ts.Node): void;
+    private checkImport;
+    private checkImportPreference;
+    private processImports;
+    private handleComplexImport;
+    private handleNamedImports;
+    private containsAssert;
+    private getImportMessage;
+    private checkTypeAlias;
+    private getSpecifyChild;
+    private checkVariableStatement;
+    private addIssueReport;
+    private reportSortedIssues;
+    private loopNodeForIssue;
+    private saveEntityNameNodes;
+    private getImportNodeUsed;
+    private getObjectsInImport;
+    private getUsedImportNames;
+}

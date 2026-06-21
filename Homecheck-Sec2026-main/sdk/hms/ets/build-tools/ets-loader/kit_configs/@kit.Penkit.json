@@ -1,0 +1,28 @@
+{
+  "symbols": {
+    "HandwriteController": {
+      "source": "@hms.stylus.HandwriteComponent",
+      "bindings": "HandwriteController"
+    },
+    "HandwriteComponent": {
+      "source": "@hms.stylus.HandwriteComponent",
+      "bindings": "HandwriteComponent"
+    },
+    "InstantShapeGenerator": {
+      "source": "@hms.stylus.handwrite",
+      "bindings": "InstantShapeGenerator"
+    },
+    "ShapeInfo": {
+      "source": "@hms.stylus.handwrite",
+      "bindings": "ShapeInfo"
+    },
+    "PointPredictor": {
+      "source": "@hms.stylus.handwrite",
+      "bindings": "PointPredictor"
+    },
+    "imageFeaturePicker": {
+      "source": "@hms.officeservice.imageFeaturePicker",
+      "bindings": "default"
+    }
+  }
+}

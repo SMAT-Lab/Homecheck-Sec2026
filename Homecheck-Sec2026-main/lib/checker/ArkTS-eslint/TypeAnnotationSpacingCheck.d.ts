@@ -1,0 +1,36 @@
+import { ArkFile } from 'arkanalyzer/lib';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Defects, IssueReport } from '../../model/Defects';
+import { MatcherCallback } from '../../matcher/Matchers';
+import { Rule } from '../../model/Rule';
+export declare class TypeAnnotationSpacingCheck implements BaseChecker {
+    rule: Rule;
+    private options;
+    private isUseDefaultOption;
+    defects: Defects[];
+    issues: IssueReport[];
+    private defaultOptions;
+    private issueMap;
+    constructor();
+    registerMatchers(): MatcherCallback[];
+    codeFix?(arkFile: ArkFile, fixKey: string): boolean;
+    metaData: BaseMetaData;
+    private fileMatcher;
+    check: (target: ArkFile) => void;
+    private checkTypeAnnotationSpacing;
+    private checkQuestionToken;
+    private findTextBetweenQuestionAndColon;
+    private checkQuestionSpacing;
+    private generateQuestionTokenIssues;
+    private handleQuestionMarkSpacing;
+    private addSpacingIssue;
+    private handleBetweenSpaceIssues;
+    private checkTypeAnnotation;
+    private generateTokenIssues;
+    private checkAndHandleSpacing;
+    private getEffectiveRules;
+    private handleBeforeSpacing;
+    private handleAfterSpacing;
+    private createSpacingFix;
+    private addIssueReport;
+}

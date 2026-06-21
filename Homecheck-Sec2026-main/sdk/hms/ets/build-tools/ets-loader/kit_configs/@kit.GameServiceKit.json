@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "gamePlayer": {
+      "source": "@hms.core.gameservice.gameplayer",
+      "bindings": "default"
+    },
+    "gamePerformance": {
+      "source": "@hms.core.gameservice.gameperformance",
+      "bindings": "default"
+    }
+  }
+}

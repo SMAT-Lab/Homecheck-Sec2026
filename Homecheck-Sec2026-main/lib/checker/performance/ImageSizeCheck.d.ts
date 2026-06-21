@@ -1,0 +1,30 @@
+import { Scene } from 'arkanalyzer/lib';
+import { BaseChecker, BaseMetaData } from '../BaseChecker';
+import { Defects, MatcherCallback, Rule } from '../../Index';
+import { IssueReport } from '../../model/Defects';
+export declare class ImageSizeCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    readonly IMAGE: string;
+    readonly WIDTH: string;
+    readonly HEIGHT: string;
+    readonly SIZE: string;
+    readonly CREATE: string;
+    readonly BACKGROUND_IMAGE = "backgroundImage";
+    rule: Rule;
+    defects: Defects[];
+    issues: IssueReport[];
+    registerMatchers(): MatcherCallback[];
+    check: (scene: Scene) => void;
+    private cacheProjectImages;
+    private classProcess;
+    private traverseViewTree;
+    private calculateImageSize;
+    private getComponentSizeByWidthAndHeight;
+    private getComponentSizeBySize;
+    private getImageResourcePath;
+    private getImageName;
+    private getValueByStmt;
+    private getArgValue;
+    private addIssueReport;
+    private getLineAndColumn;
+}

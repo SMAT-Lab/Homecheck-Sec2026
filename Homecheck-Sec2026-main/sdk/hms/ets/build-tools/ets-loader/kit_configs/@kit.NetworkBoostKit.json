@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "netQuality": {
+      "source": "@hms.networkboost.netquality",
+      "bindings": "default"
+    },
+    "netHandover": {
+      "source": "@hms.networkboost.handover",
+      "bindings": "default"
+    }
+  }
+}

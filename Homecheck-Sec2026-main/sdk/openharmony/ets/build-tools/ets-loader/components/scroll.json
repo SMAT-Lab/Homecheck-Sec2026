@@ -1,0 +1,8 @@
+{
+  "name": "Scroll",
+  "single": true,
+  "attrs": [
+    "scrollable", "onScroll", "onScrollEdge", "onScrollEnd", "scrollBar", "scrollBarColor",
+    "scrollBarWidth", "edgeEffect", "enableScrollInteraction", "onScrollBegin"
+  ]
+}

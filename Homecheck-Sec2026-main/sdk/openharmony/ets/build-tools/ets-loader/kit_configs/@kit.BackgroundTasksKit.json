@@ -1,0 +1,40 @@
+{
+  "symbols": {
+    "backgroundTaskManager": {
+      "source": "@ohos.resourceschedule.backgroundTaskManager.d.ts",
+      "bindings": "default"
+    },
+    "bundleState": {
+      "source": "@ohos.bundleState.d.ts",
+      "bindings": "default"
+    },
+    "reminderAgent": {
+      "source": "@ohos.reminderAgent.d.ts",
+      "bindings": "default"
+    },
+    "reminderAgentManager": {
+      "source": "@ohos.reminderAgentManager.d.ts",
+      "bindings": "default"
+    },
+    "deviceStandby": {
+      "source": "@ohos.resourceschedule.deviceStandby.d.ts",
+      "bindings": "default"
+    },
+    "usageStatistics": {
+      "source": "@ohos.resourceschedule.usageStatistics.d.ts",
+      "bindings": "default"
+    },
+    "workScheduler": {
+      "source": "@ohos.resourceschedule.workScheduler.d.ts",
+      "bindings": "default"
+    },
+    "WorkSchedulerExtensionAbility": {
+      "source": "@ohos.WorkSchedulerExtensionAbility.d.ts",
+      "bindings": "default"
+    },
+    "WorkSchedulerExtensionContext": {
+      "source": "@ohos.WorkSchedulerExtensionAbility.d.ts",
+      "bindings": "WorkSchedulerExtensionContext"
+    }
+  }
+}

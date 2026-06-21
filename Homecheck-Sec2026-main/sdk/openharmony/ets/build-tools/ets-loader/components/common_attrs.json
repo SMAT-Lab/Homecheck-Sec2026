@@ -1,0 +1,33 @@
+{
+  "attrs": [
+    "reuseId", "width", "height", "size", "constraintSize", "layoutPriority", "layoutWeight",
+    "padding", "paddingLeft", "paddingRight", "paddingTop", "paddingBottom",
+    "margin", "marginLeft", "marginRight", "marginTop", "marginBottom",
+    "border", "borderStyle", "borderWidth", "borderColor", "borderRadius", "background",
+    "backgroundColor", "backgroundImage", "backgroundImageSize", "backgroundImagePosition", "backgroundBlurStyle",
+    "obscured", "opacity", "animation", "transition", "stateStyles", "foregroundBlurStyle",
+    "onClick", "onTouch", "touchable", "onKeyEvent", "onHover", "hoverEffect", "onMouse", "onAreaChange",
+    "blur", "backdropBlur", "windowBlur", "translate", "rotate", "scale", "transform",
+    "onAppear", "onDisAppear", "visibility", "flexBasis", "flexShrink", "flexGrow", "alignSelf",
+    "useAlign", "zIndex", "sharedTransition", "direction", "align", "position", "markAnchor",
+    "offset", "enabled", "aspectRatio", "displayPriority",
+    "onDragStart", "onDragEnter", "onDragMove", "onDragLeave", "onDrop", "onDragEnd", "draggable",
+    "overlay", "linearGradient", "sweepGradient", "radialGradient",
+    "gridOffset", "gridSpan", "useSizeType",
+    "motionPath", "clip", "shadow", "mask", "key", "id", "restoreId",
+    "accessibilityGroup", "accessibilityText", "accessibilityDescription", "accessibilityLevel", "accessibilityVirtualNode",
+    "accessibilityImportance", "onAccessibility", "grayscale", "brightness", "contrast",
+    "saturate", "geometryTransition",
+    "bindPopup", "colorBlend", "invert", "sepia", "hueRotate", "bindMenu", "bindContextMenu",
+    "onFocus", "onBlur", "onFocusMove", "focusable", "tabIndex", "defaultFocus", "groupDefaultFocus", "focusOnTouch",
+    "responseRegion", "alignRules", "chainMode", "onVisibleAreaChange",
+    "borderImage", "hitTestBehavior", "clickEffect", "foregroundColor", "bindContentCover", "bindSheet", "useEffect",
+    "onGestureJudgeBegin","monopolizeEvents","onTouchIntercept","onChildTouchTest","onSizeChange", "onWillDismiss",
+    "foregroundEffect", "backgroundEffect", "focusBox", "focusScopeId", "focusScopePriority",
+    "onGestureRecognizerJudgeBegin", "shouldBuiltInRecognizerParallelWith", "backgroundImageResizable",
+    "onAttach", "onDetach",
+    "onPreDrag", "dragPreviewOptions", "allowDrop", "dragPreview",
+    "keyboardShortcut",
+    "pixelRound", "expandSafeArea"
+  ]
+}

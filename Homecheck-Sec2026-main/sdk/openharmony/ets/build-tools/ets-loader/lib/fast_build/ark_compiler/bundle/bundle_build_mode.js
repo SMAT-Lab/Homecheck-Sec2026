@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BundleBuildMode=void 0;var _bundle_mode=require("./bundle_mode");class BundleBuildMode extends _bundle_mode.BundleMode{constructor(e,d){super(e,d)}generateAbc(){0===this.filterIntermediateJsBundle.length?super.afterCompilationProcess():super.executeArkCompiler()}}exports.BundleBuildMode=BundleBuildMode;

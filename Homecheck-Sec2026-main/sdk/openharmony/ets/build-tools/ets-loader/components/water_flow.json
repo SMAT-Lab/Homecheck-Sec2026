@@ -1,0 +1,17 @@
+{
+    "name": "WaterFlow",
+    "children": [
+        "FlowItem"
+    ],
+    "attrs": [
+        "onReachEnd",
+        "onReachStart",
+        "itemConstraintSize",
+        "rowsTemplate",
+        "columnsTemplate",
+        "columnsGap",
+        "rowsGap",
+        "layoutDirection",
+        "enableScrollInteraction"
+    ]
+}

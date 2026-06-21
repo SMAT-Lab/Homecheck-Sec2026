@@ -1,0 +1,36 @@
+{
+  "symbols": {
+    "geolocation": {
+      "source": "@ohos.geolocation.d.ts",
+      "bindings": "default"
+    },
+    "geoLocationManager": {
+      "source": "@ohos.geoLocationManager.d.ts",
+      "bindings": "default"
+    },
+    "Geolocation": {
+      "source": "@system.geolocation.d.ts",
+      "bindings": "default"
+    },
+    "GeolocationResponse": {
+      "source": "@system.geolocation.d.ts",
+      "bindings": "GeolocationResponse"
+    },
+    "GetLocationOption": {
+      "source": "@system.geolocation.d.ts",
+      "bindings": "GetLocationOption"
+    },
+    "GetLocationTypeOption": {
+      "source": "@system.geolocation.d.ts",
+      "bindings": "GetLocationTypeOption"
+    },
+    "GetLocationTypeResponse": {
+      "source": "@system.geolocation.d.ts",
+      "bindings": "GetLocationTypeResponse"
+    },
+    "SubscribeLocationOption": {
+      "source": "@system.geolocation.d.ts",
+      "bindings": "SubscribeLocationOption"
+    }
+  }
+}

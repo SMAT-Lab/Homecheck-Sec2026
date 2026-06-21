@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "insightIntent": {
+      "source": "@hms.ai.insightIntent",
+      "bindings": "default"
+    },
+    "InsightIntentUIExtensionAbility": {
+      "source": "@hms.ai.insightIntent.InsightIntentUIExtensionAbility",
+      "bindings": "default"
+    }
+  }
+}

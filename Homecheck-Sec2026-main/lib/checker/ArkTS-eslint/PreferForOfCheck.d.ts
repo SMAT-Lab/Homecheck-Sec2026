@@ -1,0 +1,38 @@
+import { ArkFile } from "arkanalyzer/lib";
+import { BaseChecker, BaseMetaData } from "../BaseChecker";
+import { Defects } from "../../model/Defects";
+import { MatcherCallback } from "../../matcher/Matchers";
+import { Rule } from "../../model/Rule";
+import { IssueReport } from '../../model/Defects';
+export declare class PreferForOfCheck implements BaseChecker {
+    readonly metaData: BaseMetaData;
+    defects: Defects[];
+    issues: IssueReport[];
+    rule: Rule;
+    private fileMatcher;
+    private filePath;
+    registerMatchers(): MatcherCallback[];
+    check: (targetField: ArkFile) => void;
+    private checkForOfUsage;
+    private isSingleVariableDeclaration;
+    private isZeroInitialized;
+    private isLessThanLengthExpression;
+    private isIncrement;
+    private checkPlusPlusIncrement;
+    private checkCompoundAssignment;
+    private checkPlusEquals;
+    private checkAssignmentWithBinaryExpression;
+    private isIndexOnlyUsedWithArray;
+    private handleVariableDeclaration;
+    private handleElementAccess;
+    private handleAssignment;
+    private checkIdentifierUsage;
+    private checkForStatement;
+    private isValidInitializer;
+    private getIndexNameFromDeclaration;
+    private checkCondition;
+    private checkIncrementor;
+    private shouldReportIssue;
+    private generateIssueReport;
+    private addIssueReport;
+}

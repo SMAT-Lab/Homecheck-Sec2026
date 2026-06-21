@@ -1,0 +1,6 @@
+{
+  "name": "XComponent",
+  "attrs": [
+    "id", "type", "libraryname", "onLoad", "onDestroy"
+  ]
+}

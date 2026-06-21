@@ -1,0 +1,32 @@
+{
+  "symbols": {
+    "mapCommon": {
+      "source": "@hms.core.map.mapCommon",
+      "bindings": "default"
+    },
+    "map": {
+      "source": "@hms.core.map.map",
+      "bindings": "default"
+    },
+    "MapComponent": {
+      "source": "@hms.core.map.MapComponent",
+      "bindings": "MapComponent"
+    },
+    "staticMap": {
+      "source": "@hms.core.map.staticMap",
+      "bindings": "default"
+    },
+    "site": {
+      "source": "@hms.core.map.site",
+      "bindings": "default"
+    },
+    "navi": {
+      "source": "@hms.core.map.navi",
+      "bindings": "default"
+    },
+    "sceneMap": {
+      "source": "@hms.core.map.sceneMap",
+      "bindings": "default"
+    }
+  }
+}

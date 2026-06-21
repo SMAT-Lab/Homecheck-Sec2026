@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "webview": {
+      "source": "@ohos.web.webview.d.ts",
+      "bindings": "default"
+    },
+    "WebNetErrorList": {
+      "source": "@ohos.web.netErrorList.d.ts",
+      "bindings": "WebNetErrorList"
+    }
+  }
+}
