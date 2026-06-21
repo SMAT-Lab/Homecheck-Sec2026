@@ -3,8 +3,9 @@
   "include": [
     "Index.ts",
     "src/**/*"
-  ],
+, "test/SoftwareSecurity26/Test23371148.ts"  ],
   "compilerOptions": {
     "outDir": "./out"
+    
   }
 }

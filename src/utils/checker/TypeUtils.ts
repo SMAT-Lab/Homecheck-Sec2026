@@ -24,7 +24,7 @@ import { AliasType, ArrayType, ClassType, FunctionType, GenericType, TupleType, 
  */
 export function isAppointType(appointType: Type, type: Type): boolean {
 
-  if (appointType.getTypeString() === type.getTypeString()) {
+  if (appointType.toString() === type.toString()) {
     return true;
   }
 
@@ -86,7 +86,7 @@ function generic(appointType: Type, type: Type[] | undefined): boolean {
  * @returns 
  */
 export function fixAppointType(appointType: Type, type: Type, newType: Type): Type {
-  if (appointType.getTypeString() === type.getTypeString()) {
+  if (appointType.toString() === type.toString()) {
     return newType;
   }
 

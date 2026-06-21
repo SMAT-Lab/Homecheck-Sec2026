@@ -244,8 +244,11 @@ import { LowerAppBrightnessCheck } from '../../checker/performance/LowerAppBrigh
 import { StreamUsageApiCheck } from '../../checker/performance/StreamUsageApiCheck';
 import { AvoidMemoryLeakInAnimator } from '../../checker/performance/AvoidMemoryLeakInAnimator';
 import { AvoidMemoryLeakInDisplaysync } from '../../checker/performance/AvoidMemoryLeakInDisplaysync';
-import { CommandExecutionCheck } from '../../checker/SoftwareSecurity26/Checker19241042/CommandExecutionCheck';
-
+import { CommandExecutionCheck } from '../../checker/SoftwareSecurity26/Checker23371148/CommandExecutionCheck';
+import { SQLInjectionCheck } from '../../checker/SoftwareSecurity26/Checker23371148/SQLInjectionCheck';
+import { HardcodedCredentialCheck } from '../../checker/SoftwareSecurity26/Checker23371148/HardcodedCredentialCheck';
+import { InsecurePermissionCheck } from '../../checker/SoftwareSecurity26/Checker23371148/InsecurePermissionCheck';
+import { PathTraversalCheck } from '../../checker/SoftwareSecurity26/Checker23371148/PathTraversalCheck';
 
 const logger = Logger.getLogger(LOG_MODULE_TYPE.HOMECHECK, 'CheckerIndex');
 
@@ -460,7 +463,11 @@ export const fileRules = {
     "@stability/call-addInput-before-addOutput-check": CallAddInputBeforeAddOutputCheck,
     "@stability/camera-input-open-check": CameraInputOpenCheck,
     //software-security2026 start
-    "@software-sec/checker19241042/command-execution-check":CommandExecutionCheck
+    "@software-sec/checker23371148/command-execution-check":CommandExecutionCheck,
+    "@software-sec/checker23371148/sql-injection-check": SQLInjectionCheck,
+    "@software-sec/checker23371148/hardcoded-credential-check": HardcodedCredentialCheck,
+    "@software-sec/checker23371148/insecure-permission-check": InsecurePermissionCheck,
+    "@software-sec/checker23371148/path-traversal-check": PathTraversalCheck
     //software-security2026 end
 };
 
@@ -485,7 +492,7 @@ export const projectRules = {
     "@performance/resources-file-check": ResourcesFileCheck,
     "@performance/dark-color-mode-check": DarkColorModeCheck,
     "@security/no-cycle-check": NoCycleCheck,
-    "@stability/image-sync-blur-check": ImageSyncBlurCheck
+    "@stability/image-sync-blur-check": ImageSyncBlurCheck,
     //software-security2026 start
 
     //software-security2026 finish

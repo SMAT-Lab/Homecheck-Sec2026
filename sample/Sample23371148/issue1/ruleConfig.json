@@ -1,0 +1,22 @@
+{
+  "files": [
+    "**/*.ets",
+    "**/*.ts"
+  ],
+  "ignore": [
+    "**/ohosTest/**/*",
+    "**/node_modules/**/*",
+    "**/build/**/*",
+    "**/hvigorfile/**/*",
+    "**/oh_modules/**/*",
+    "**/.preview/**/*"
+  ],
+  "rules": {
+    "@software-sec/checker23371148/command-execution-check": 2
+  },
+  "ruleSet": [
+  
+  ],
+  "overrides": [],
+  "extRuleSet": []
+}

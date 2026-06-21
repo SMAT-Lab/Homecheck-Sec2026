@@ -154,19 +154,19 @@ export class NoUnnecessaryTypeAssertionCheck implements BaseChecker {
         const rightOpType = stmt.getRightOp().getType();
 
         if (this.options.typesToIgnore &&
-            (!this.options.typesToIgnore.includes(rightOpType.getTypeString()) ||
+            (!this.options.typesToIgnore.includes(rightOpType.toString()) ||
                 !this.options.typesToIgnore.includes(nodeType?.getText() || ''))) {
             return false;
         }
-        if (rightOpType.getTypeString() === 'unknown') {
+        if (rightOpType.toString() === 'unknown') {
             return false;
         }
-        if (rightOpType.getTypeString() === 'any') {
+        if (rightOpType.toString() === 'any') {
             return false;
         }
 
         if (nodeType) {
-            if (nodeType.getText() === rightOpType.getTypeString()) {
+            if (nodeType.getText() === rightOpType.toString()) {
                 return true;
             }
         }
